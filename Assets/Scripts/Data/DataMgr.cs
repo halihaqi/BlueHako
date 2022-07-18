@@ -4,45 +4,45 @@ using UnityEngine;
 
 public class DataMgr : Singleton<DataMgr>
 {
-    //ÉùÒôÊı¾İ
+    //å£°éŸ³æ•°æ®
     public AudioData audioData;
 
-    //Íæ¼ÒÊı¾İ
+    //ç©å®¶æ•°æ®
     public PlayerData playerData;
 
-    //±³°üÊı¾İ
+    //èƒŒåŒ…æ•°æ®
     public BagData bagData;
 
 
-    //½ÇÉ«Êı¾İ±í
+    //è§’è‰²æ•°æ®è¡¨
     public List<RoleInfo> roleInfoList = new List<RoleInfo>();
 
-    //Õ½¶·³¡¾°Êı¾İ±í
+    //æˆ˜æ–—åœºæ™¯æ•°æ®è¡¨
     public List<SceneInfo> sceneInfoList = new List<SceneInfo>();
 
-    //µĞÈËÊı¾İ±í
+    //æ•Œäººæ•°æ®è¡¨
     public List<EnemyInfo> enemyInfoList = new List<EnemyInfo>();
 
-    //·ÀÓùËşÊı¾İ±í
+    //é˜²å¾¡å¡”æ•°æ®è¡¨
     public List<TowerInfo> towerInfoList = new List<TowerInfo>();
 
-    //µÀ¾ßÖÖÀà±í
+    //é“å…·ç§ç±»è¡¨
     public List<ItemInfo> itemInfoList = new List<ItemInfo>();
 
-    //ÉÌµêµÀ¾ßÁĞ±í
+    //å•†åº—é“å…·åˆ—è¡¨
     public List<ShopInfo> shopInfoList = new List<ShopInfo>();
 
-    //ÈÎÎñÁĞ±í
+    //ä»»åŠ¡åˆ—è¡¨
     public List<TaskInfo> taskInfoList = new List<TaskInfo>();
 
-    //µ±Ç°Íæ¼ÒĞÅÏ¢
+    //å½“å‰ç©å®¶ä¿¡æ¯
     private PlayerInfo nowPlayerInfo;
 
-    //µ±Ç°³¡¾°ĞÅÏ¢
+    //å½“å‰åœºæ™¯ä¿¡æ¯
     private SceneInfo nowSceneInfo;
     public SceneInfo NowSceneInfo { get { return nowSceneInfo; } set { nowSceneInfo = value; } }
 
-    //¹¹Ôìº¯Êı¶ÁÈ¡¸÷Êı¾İ
+    //æ„é€ å‡½æ•°è¯»å–å„æ•°æ®
     public DataMgr()
     {
         roleInfoList = JsonMgr.Instance.LoadData<List<RoleInfo>>("RoleInfo");
@@ -58,9 +58,9 @@ public class DataMgr : Singleton<DataMgr>
         bagData = JsonMgr.Instance.LoadData<BagData>("BagData");
     }
 
-    #region ÒôÀÖÊı¾İ¹«¹²·½·¨
+    #region éŸ³ä¹æ•°æ®å…¬å…±æ–¹æ³•
     /// <summary>
-    /// ±£´æÉùÒôÊı¾İ
+    /// ä¿å­˜å£°éŸ³æ•°æ®
     /// </summary>
     public void SaveAudioData()
     {
@@ -68,9 +68,9 @@ public class DataMgr : Singleton<DataMgr>
     }
     #endregion
 
-    #region Íæ¼ÒÊı¾İ¹«¹²·½·¨
+    #region ç©å®¶æ•°æ®å…¬å…±æ–¹æ³•
     /// <summary>
-    /// ±£´æÍæ¼ÒÊı¾İºÍ±³°üÊı¾İ
+    /// ä¿å­˜ç©å®¶æ•°æ®å’ŒèƒŒåŒ…æ•°æ®
     /// </summary>
     public void SavePlayerData()
     {
@@ -79,16 +79,16 @@ public class DataMgr : Singleton<DataMgr>
     }
 
     /// <summary>
-    /// ´´½¨ĞÂ´æµµ»òÕß¸²¸ÇÔ­À´´æµµ£¬´´½¨Íêºó±£´æ
-    /// Ã¿´Î´´½¨Íæ¼Ò´æµµ£¬¶¼Òª´´½¨Ò»¸öĞÂµÄ±³°ü´æµµ
+    /// åˆ›å»ºæ–°å­˜æ¡£æˆ–è€…è¦†ç›–åŸæ¥å­˜æ¡£ï¼Œåˆ›å»ºå®Œåä¿å­˜
+    /// æ¯æ¬¡åˆ›å»ºç©å®¶å­˜æ¡£ï¼Œéƒ½è¦åˆ›å»ºä¸€ä¸ªæ–°çš„èƒŒåŒ…å­˜æ¡£
     /// </summary>
-    /// <param name="id">´æµµid</param>
-    /// <param name="roleId">ËùÑ¡½ÇÉ«id</param>
-    /// <returns>ĞÂ´´½¨µÄInfo</returns>
+    /// <param name="id">å­˜æ¡£id</param>
+    /// <param name="roleId">æ‰€é€‰è§’è‰²id</param>
+    /// <returns>æ–°åˆ›å»ºçš„Info</returns>
     public PlayerInfo CreateNewPlayerInfo(int id, int roleId)
     {
         PlayerInfo newInfo = new PlayerInfo(id, roleId, 0, 0, 0);
-        //Èç¹û´æÔÚ´ËidµÄÍæ¼ÒºÍ±³°ü´æµµ£¬¸²¸Ç¸Ã´æµµ
+        //å¦‚æœå­˜åœ¨æ­¤idçš„ç©å®¶å’ŒèƒŒåŒ…å­˜æ¡£ï¼Œè¦†ç›–è¯¥å­˜æ¡£
         if (playerData.playerList.ContainsKey(id.ToString()))
         {
             playerData.playerList[id.ToString()] = newInfo;
@@ -106,9 +106,9 @@ public class DataMgr : Singleton<DataMgr>
     }
 
     /// <summary>
-    /// ¶ÁÈ¡´æµµ
+    /// è¯»å–å­˜æ¡£
     /// </summary>
-    /// <param name="id">´æµµid</param>
+    /// <param name="id">å­˜æ¡£id</param>
     /// <returns></returns>
     public PlayerInfo LoadPlayerInfo(int id)
     {
@@ -118,7 +118,7 @@ public class DataMgr : Singleton<DataMgr>
     }
 
     /// <summary>
-    /// µ±Ç°Íæ¼ÒÊı¾İ
+    /// å½“å‰ç©å®¶æ•°æ®
     /// </summary>
     public PlayerInfo NowPlayerInfo
     {
@@ -126,30 +126,30 @@ public class DataMgr : Singleton<DataMgr>
     }
 
     /// <summary>
-    /// Í¬²½Íæ¼Ò½ğÇ®µ½±³°üÖĞ½ğÇ®Êı
+    /// åŒæ­¥ç©å®¶é‡‘é’±åˆ°èƒŒåŒ…ä¸­é‡‘é’±æ•°
     /// </summary>
     public void UpdateMoney()
     {
         foreach(string id in NowBagInfo.slot.Keys)
         {
-            //Èç¹ûÓĞ×êÊ¯¾Í¸üĞÂÇ®
+            //å¦‚æœæœ‰é’»çŸ³å°±æ›´æ–°é’±
             if (NowBagInfo.slot[id].info.id == (int)E_ItemType.Diamond)
             {
                 NowPlayerInfo.money = NowBagInfo.slot[id].num;
                 return;
             }
         }
-        //Èç¹ûÓĞ×êÊ¯
-        //Èç¹ûÃ»ÓĞ¾ÍÎª0
+        //å¦‚æœæœ‰é’»çŸ³
+        //å¦‚æœæ²¡æœ‰å°±ä¸º0
         NowPlayerInfo.money = 0;
 
     }
 
     #endregion
 
-    #region ±³°üÊı¾İ¹«¹²·½·¨
+    #region èƒŒåŒ…æ•°æ®å…¬å…±æ–¹æ³•
     /// <summary>
-    /// ±£´æ±³°üÊı¾İ
+    /// ä¿å­˜èƒŒåŒ…æ•°æ®
     /// </summary>
     public void SaveBagData()
     {
@@ -157,7 +157,7 @@ public class DataMgr : Singleton<DataMgr>
     }
 
     /// <summary>
-    /// µ±Ç°±³°üÊı¾İ
+    /// å½“å‰èƒŒåŒ…æ•°æ®
     /// </summary>
     public BagInfo NowBagInfo
     {
@@ -165,30 +165,30 @@ public class DataMgr : Singleton<DataMgr>
     }
 
     /// <summary>
-    /// Ìí¼ÓµÀ¾ß
+    /// æ·»åŠ é“å…·
     /// </summary>
-    /// <param name="itemType">µÀ¾ßÖÖÀà</param>
-    /// <param name="num">´æÈëÊıÁ¿</param>
+    /// <param name="itemType">é“å…·ç§ç±»</param>
+    /// <param name="num">å­˜å…¥æ•°é‡</param>
     public bool AddItem(E_ItemType itemType, int num)
     {
         ItemInfo info = itemInfoList[(int)itemType];
         bool isFull = true;
         int emptyIndex = NowBagInfo.bagCapacity - 1;
-        //µ¹Ğò±éÀú£¬ÎªÁËÔÚ×îÇ°ÃæµÄ¿Õ¸ñ×ÓÌí¼ÓµÀ¾ß
+        //å€’åºéå†ï¼Œä¸ºäº†åœ¨æœ€å‰é¢çš„ç©ºæ ¼å­æ·»åŠ é“å…·
         for (int i = NowBagInfo.bagCapacity - 1; i >= 0; i--)
         {
-            //Èç¹ûµ±Ç°µÀ¾ß¸ñÎª¿Õ
-            //¼ÇÂ¼µ±Ç°µÀ¾ß¸ñ£¬²¢ÇÒ¼ÇÂ¼±³°üÃ»ÓĞÂú
+            //å¦‚æœå½“å‰é“å…·æ ¼ä¸ºç©º
+            //è®°å½•å½“å‰é“å…·æ ¼ï¼Œå¹¶ä¸”è®°å½•èƒŒåŒ…æ²¡æœ‰æ»¡
             if (NowBagInfo.slot[i.ToString()].info == null)
             {
                 emptyIndex = i;
                 isFull = false;
             }
-            //Èç¹ûÓĞÕâÖÖµÀ¾ß£¬¼ÓÉÏÊıÁ¿ºó·µ»Øtrue
+            //å¦‚æœæœ‰è¿™ç§é“å…·ï¼ŒåŠ ä¸Šæ•°é‡åè¿”å›true
             if (NowBagInfo.slot[i.ToString()].info?.id == info.id)
             {
                 NowBagInfo.slot[i.ToString()].num += num;
-                //µÀ¾ß×î¶àÎª9999
+                //é“å…·æœ€å¤šä¸º9999
                 if (NowBagInfo.slot[emptyIndex.ToString()].num > 9999)
                     NowBagInfo.slot[emptyIndex.ToString()].num = 9999;
                 if (itemType == E_ItemType.Diamond)
@@ -196,8 +196,8 @@ public class DataMgr : Singleton<DataMgr>
                 return true;
             }
         }
-        //±éÀúºó·¢ÏÖÃ»ÓĞ¸ÃµÀ¾ß
-        //±³°üÃ»ÓĞÂú£¬Ìí¼Ó¸ÃµÀ¾ß
+        //éå†åå‘ç°æ²¡æœ‰è¯¥é“å…·
+        //èƒŒåŒ…æ²¡æœ‰æ»¡ï¼Œæ·»åŠ è¯¥é“å…·
         if (!isFull)
         {
             NowBagInfo.slot[emptyIndex.ToString()].info = info;
@@ -206,40 +206,40 @@ public class DataMgr : Singleton<DataMgr>
                 NowBagInfo.slot[emptyIndex.ToString()].num = 9999;
             return true;
         }
-        //±³°üÂúÁË£¬´òÓ¡±³°üÒÑÂú£¬Ö±½Ó·µ»Ø
+        //èƒŒåŒ…æ»¡äº†ï¼Œæ‰“å°èƒŒåŒ…å·²æ»¡ï¼Œç›´æ¥è¿”å›
         else
         {
-            Debug.Log("±³°üÒÑÂú");
+            Debug.Log("èƒŒåŒ…å·²æ»¡");
             return false;
         }
     }
 
     /// <summary>
-    /// È¡³öµÀ¾ß
+    /// å–å‡ºé“å…·
     /// </summary>
-    /// <param name="itemType">µÀ¾ßÖÖÀà</param>
-    /// <param name="num">È¡³öÊıÁ¿</param>
-    /// <returns>Èç¹ûµÀ¾ßÊıÁ¿×ã¹»È¡³ö·µ»Øtrue£¬²»×ã·µ»Øfalse</returns>
+    /// <param name="itemType">é“å…·ç§ç±»</param>
+    /// <param name="num">å–å‡ºæ•°é‡</param>
+    /// <returns>å¦‚æœé“å…·æ•°é‡è¶³å¤Ÿå–å‡ºè¿”å›trueï¼Œä¸è¶³è¿”å›false</returns>
     public bool RemoveItem(E_ItemType itemType, int num)
     {
         for (int i = 0; i < NowBagInfo.bagCapacity; i++)
         {
-            //Èç¹ûÓĞÕâÖÖµÀ¾ß
+            //å¦‚æœæœ‰è¿™ç§é“å…·
             if (NowBagInfo.slot[i.ToString()].info?.id == (int)itemType)
             {
-                //Èç¹û³ÖÓĞµÀ¾ßÉÙÓÚÒªÒÆ³ıµÄµÀ¾ßÊı
-                //²»ÒÆ³ı²¢·µ»Øfalse
+                //å¦‚æœæŒæœ‰é“å…·å°‘äºè¦ç§»é™¤çš„é“å…·æ•°
+                //ä¸ç§»é™¤å¹¶è¿”å›false
                 if (NowBagInfo.slot[i.ToString()].num < num)
                 {
-                    Debug.Log("¸ÃµÀ¾ß³ÖÓĞÊı²»×ã");
+                    Debug.Log("è¯¥é“å…·æŒæœ‰æ•°ä¸è¶³");
                     return false;
                 }
-                //Èç¹ûÓµÓĞ¿ÉÒÔÒÆ³ıµÄÁ¿
-                //ÔòÒÆ³ı²¢·µ»Øtrue
+                //å¦‚æœæ‹¥æœ‰å¯ä»¥ç§»é™¤çš„é‡
+                //åˆ™ç§»é™¤å¹¶è¿”å›true
                 else
                 {
                     NowBagInfo.slot[i.ToString()].num -= num;
-                    //Èç¹ûÊıÁ¿Îª0£¬Ôò´Ó×ÖµäÖĞÒÆ³ı
+                    //å¦‚æœæ•°é‡ä¸º0ï¼Œåˆ™ä»å­—å…¸ä¸­ç§»é™¤
                     if (NowBagInfo.slot[i.ToString()].num == 0)
                         NowBagInfo.slot[i.ToString()].info = null;
                     if (itemType == E_ItemType.Diamond)
@@ -248,13 +248,13 @@ public class DataMgr : Singleton<DataMgr>
                 }
             }
         }
-        //Èç¹ûÃ»ÓĞ¸ÃµÀ¾ß£¬·µ»Øfalse
-        Debug.Log("±³°üÖĞÃ»ÓĞ¸ÃµÀ¾ß");
+        //å¦‚æœæ²¡æœ‰è¯¥é“å…·ï¼Œè¿”å›false
+        Debug.Log("èƒŒåŒ…ä¸­æ²¡æœ‰è¯¥é“å…·");
         return false;
     }
 
     /// <summary>
-    /// »ñÈ¡±³°üÖĞ¸ÃµÀ¾ßµÄÊıÁ¿
+    /// è·å–èƒŒåŒ…ä¸­è¯¥é“å…·çš„æ•°é‡
     /// </summary>
     /// <param name="itemType"></param>
     /// <returns></returns>
@@ -275,7 +275,7 @@ public class DataMgr : Singleton<DataMgr>
     }
 
     /// <summary>
-    /// Çå¿ÕµÀ¾ß
+    /// æ¸…ç©ºé“å…·
     /// </summary>
     public void ClearItem()
     {
@@ -288,16 +288,16 @@ public class DataMgr : Singleton<DataMgr>
 
     #endregion
 
-    #region ÉÌµêÊı¾İ¹«¹²·½·¨
+    #region å•†åº—æ•°æ®å…¬å…±æ–¹æ³•
     /// <summary>
-    /// ¹ºÂòµÀ¾ß
+    /// è´­ä¹°é“å…·
     /// </summary>
-    /// <param name="id">µÀ¾ß¸ñid</param>
-    /// <param name="num">µÀ¾ßÊı</param>
+    /// <param name="id">é“å…·æ ¼id</param>
+    /// <param name="num">é“å…·æ•°</param>
     public bool BuyItem(int id, int num)
     {
         E_ItemType moneyType = (E_ItemType)shopInfoList[id].moneyId;
-        //Èç¹ûÄÜ¹»ÒÆ³ı²Å½øĞĞÒÔÏÂÂß¼­
+        //å¦‚æœèƒ½å¤Ÿç§»é™¤æ‰è¿›è¡Œä»¥ä¸‹é€»è¾‘
         if(RemoveItem(moneyType, shopInfoList[id].moneyNum * num))
         {
             E_ItemType itemType = (E_ItemType)shopInfoList[id].itemId;
@@ -306,30 +306,30 @@ public class DataMgr : Singleton<DataMgr>
         }
         else
         {
-            Debug.Log("¹ºÂòÊ§°Ü");
+            Debug.Log("è´­ä¹°å¤±è´¥");
             return false;
         }
     }
 
     #endregion
 
-    #region ÈÎÎñÊı¾İ¹«¹²·½·¨
+    #region ä»»åŠ¡æ•°æ®å…¬å…±æ–¹æ³•
     /// <summary>
-    /// ½ÓÈ¡ÈÎÎñ
+    /// æ¥å–ä»»åŠ¡
     /// </summary>
-    /// <param name="id">ÈÎÎñid</param>
+    /// <param name="id">ä»»åŠ¡id</param>
     public void ReceiveTask(int id)
     {
         if (!NowPlayerInfo.taskList.ContainsKey(id.ToString()))
             NowPlayerInfo.taskList.Add(id.ToString(), false);
         else
-            Debug.Log("ÒÑ½ÓÈ¡¸ÃÈÎÎñ");
+            Debug.Log("å·²æ¥å–è¯¥ä»»åŠ¡");
     }
 
     /// <summary>
-    /// Íê³ÉÈÎÎñ
+    /// å®Œæˆä»»åŠ¡
     /// </summary>
-    /// <param name="id">ÈÎÎñid</param>
+    /// <param name="id">ä»»åŠ¡id</param>
     public bool CompleteTask(TaskInfo info)
     {
         if (NowPlayerInfo.taskList.ContainsKey(info.id.ToString()))
@@ -341,15 +341,15 @@ public class DataMgr : Singleton<DataMgr>
                 return true;
             }
             else
-                Debug.Log("µÀ¾ß²»×ã£¬²»ÄÜÍê³É¸ÃÈÎÎñ");
+                Debug.Log("é“å…·ä¸è¶³ï¼Œä¸èƒ½å®Œæˆè¯¥ä»»åŠ¡");
         }
         else
-            Debug.Log("Î´½ÓÈ¡¸ÃÈÎÎñ");
+            Debug.Log("æœªæ¥å–è¯¥ä»»åŠ¡");
         return false;
     }
 
     /// <summary>
-    /// ¼ì²â¸ÃÈÎÎñÊÇ·ñÍê³É
+    /// æ£€æµ‹è¯¥ä»»åŠ¡æ˜¯å¦å®Œæˆ
     /// </summary>
     /// <param name="info"></param>
     /// <returns></returns>
@@ -358,7 +358,7 @@ public class DataMgr : Singleton<DataMgr>
         bool isComplete = false;
         foreach(string id in NowPlayerInfo.taskList.Keys)
         {
-            //Èç¹û°üº¬Õâ¸öid
+            //å¦‚æœåŒ…å«è¿™ä¸ªid
             if (id == info.id.ToString())
             {
                 isComplete = NowPlayerInfo.taskList[id];
@@ -369,7 +369,7 @@ public class DataMgr : Singleton<DataMgr>
     }
 
     /// <summary>
-    /// ¼ì²âÊÇ·ñ½ÓÈ¡¸ÃÈÎÎñ
+    /// æ£€æµ‹æ˜¯å¦æ¥å–è¯¥ä»»åŠ¡
     /// </summary>
     /// <param name="info"></param>
     /// <returns></returns>
@@ -378,7 +378,7 @@ public class DataMgr : Singleton<DataMgr>
         bool isRecive = false;
         foreach (string id in NowPlayerInfo.taskList.Keys)
         {
-            //Èç¹û°üº¬Õâ¸öid
+            //å¦‚æœåŒ…å«è¿™ä¸ªid
             if (id == info.id.ToString())
             {
                 isRecive = true;
@@ -389,17 +389,18 @@ public class DataMgr : Singleton<DataMgr>
     }
     #endregion
 
-    #region Õ½¶·Êı¾İ¹«¹²·½·¨
+    #region æˆ˜æ–—æ•°æ®å…¬å…±æ–¹æ³•
     /// <summary>
-    /// Íê³ÉÕ½¶·ºó¼ÇÂ¼Õ½¶·ÒÑÍê³É
+    /// å®Œæˆæˆ˜æ–—åè®°å½•æˆ˜æ–—å·²å®Œæˆ
     /// </summary>
-    /// <param name="id">Õ½¶·³¡¾°id</param>
+    /// <param name="id">æˆ˜æ–—åœºæ™¯id</param>
     public void CompleteBattle(int id)
     {
         if (!NowPlayerInfo.battleCompleteList.Contains(id))
-            NowPlayerInfo.battleCompleteList.Add(id);
-        if(!NowPlayerInfo.battleCompleteList.Contains(id))
+        {
             NowPlayerInfo.complete = NowPlayerInfo.complete + 20 <= 100 ? NowPlayerInfo.complete + 20 : 100;
+            NowPlayerInfo.battleCompleteList.Add(id);
+        }
     }
     #endregion
 }
