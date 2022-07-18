@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: 389f4f52c51229e42b85ba92a70ac158
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -7124765898502316677
+    second: Soldier_Helmet_AR_Normal_Attack_End
+  - first:
+      74: -4549528395002070081
+    second: Soldier_Helmet_AR_Move_Jump
+  - first:
+      74: -8798069695892824908
+    second: Soldier_Helmet_AR_Kneel_Callsign
+  - first:
+      74: -4124800813471937078
+    second: Soldier_Helmet_AR_Stand_Attack_Delay
+  - first:
+      74: 3091970537381041945
+    second: Soldier_Helmet_AR_EX01
+  - first:
+      74: -1017553063718209649
+    second: Soldier_Helmet_AR_Stand_Attack_End
+  - first:
+      74: -443555848321319848
+    second: Soldier_Helmet_AR_Stand_Callsign
+  - first:
+      74: 7876229283882142076
+    second: Soldier_Helmet_AR_Move_Ing
+  - first:
+      74: -910182958298447197
+    second: Soldier_Helmet_AR_Normal_Attack_Ing
+  - first:
+      74: 2852205229574444490
+    second: Soldier_Helmet_AR_Move_End_Stand
+  - first:
+      74: -5727124709512950943
+    second: Soldier_Helmet_AR_Kneel_Attack_Start
+  - first:
+      74: -8920642630116689229
+    second: Soldier_Helmet_AR_Normal_Idle
+  - first:
+      74: -2344249565961948762
+    second: Soldier_Helmet_AR_Appear
+  - first:
+      74: 946783940630314822
+    second: Soldier_Helmet_AR_Move_End_Kneel
+  - first:
+      74: -57579158809684477
+    second: Soldier_Helmet_AR_Stand_Attack_Ing
+  - first:
+      74: -6668875795565595175
+    second: Soldier_Helmet_AR_Move_End_Normal
+  - first:
+      74: 486612052463443871
+    second: Soldier_Helmet_AR_Stand_Reload
+  - first:
+      74: 698053288567218252
+    second: Soldier_Helmet_AR_Vital_Death
+  - first:
+      74: -596871218550083371
+    second: Soldier_Helmet_AR_Move_Callsign
+  - first:
+      74: -9143544925537308453
+    second: Soldier_Helmet_AR_Normal_Callsign
+  - first:
+      74: 8524250969963171789
+    second: Soldier_Helmet_AR_Kneel_Attack_Delay
+  - first:
+      74: 8087008944989799538
+    second: Soldier_Helmet_AR_Stand_Idle
+  - first:
+      74: -4688453610495654964
+    second: Soldier_Helmet_AR_Kneel_Attack_Ing
+  - first:
+      74: 1523248101336711534
+    second: Soldier_Helmet_AR_Normal_Reload
+  - first:
+      74: 5558428781980239529
+    second: Soldier_Helmet_AR_Kneel_Idle
+  - first:
+      74: 931044259876187177
+    second: Soldier_Helmet_AR_Normal_Attack_Delay
+  - first:
+      74: -5585736839715663290
+    second: Soldier_Helmet_AR_Kneel_Reload
+  - first:
+      74: 9072542222946270135
+    second: Soldier_Helmet_AR_Vital_Panic
+  - first:
+      74: -1423963204041457002
+    second: Soldier_Helmet_AR_Stand_Attack_Start
+  - first:
+      74: 1877087816129929688
+    second: Soldier_Helmet_AR_Normal_Attack_Start
+  - first:
+      74: 8442627952550039900
+    second: Soldier_Helmet_AR_Kneel_Attack_End
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: bone_root
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

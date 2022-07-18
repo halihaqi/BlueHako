@@ -1,0 +1,8 @@
+[
+{"id":0,"res":"Prefabs/Tower/Vulcan1","hp":50,"atk":3,"next":1,"atkOffset":0.8,"atkRange":10,"needId":2,"money":50,"imgRes":"TowerImg/Vulcan1","type":1,"aoeRange":0,"name":"Vulcan","level":1,"effRes":"EffRes/FireProjectileTiny"},
+{"id":1,"res":"Prefabs/Tower/Vulcan2","hp":100,"atk":6,"next":2,"atkOffset":0.8,"atkRange":10,"needId":3,"money":100,"imgRes":"TowerImg/Vulcan2","type":1,"aoeRange":0,"name":"Vulcan","level":2,"effRes":"EffRes/FireProjectileTiny"},
+{"id":2,"res":"Prefabs/Tower/Vulcan3","hp":200,"atk":9,"next":0,"atkOffset":0.8,"atkRange":10,"needId":4,"money":200,"imgRes":"TowerImg/Vulcan3","type":1,"aoeRange":0,"name":"Vulcan","level":3,"effRes":"EffRes/FireProjectileTiny"},
+{"id":3,"res":"Prefabs/Tower/Missile1","hp":50,"atk":5,"next":4,"atkOffset":2,"atkRange":20,"needId":2,"money":100,"imgRes":"TowerImg/Missile1","type":2,"aoeRange":2,"name":"Missile","level":1,"effRes":"EffRes/FireImpactTiny"},
+{"id":4,"res":"Prefabs/Tower/Missile2","hp":100,"atk":10,"next":5,"atkOffset":2,"atkRange":20,"needId":3,"money":200,"imgRes":"TowerImg/Missile2","type":2,"aoeRange":2,"name":"Missile","level":2,"effRes":"EffRes/FireImpactTiny"},
+{"id":5,"res":"Prefabs/Tower/Missile3","hp":200,"atk":20,"next":0,"atkOffset":2,"atkRange":20,"needId":4,"money":400,"imgRes":"TowerImg/Missile3","type":2,"aoeRange":2,"name":"Missile","level":3,"effRes":"EffRes/FireImpactTiny"}
+]

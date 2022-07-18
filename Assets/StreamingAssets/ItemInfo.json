@@ -1,0 +1,14 @@
+[
+{"id":0,"name":"Diamond","imgRes":"ItemImg/Diamond","tip":"钻石，用于商店交易"},
+{"id":1,"name":"Gold","imgRes":"ItemImg/Gold","tip":"金币，用于造塔"},
+{"id":2,"name":"TowerUp1","imgRes":"ItemImg/TowerUp1","tip":"防御塔升级道具1"},
+{"id":3,"name":"TowerUp2","imgRes":"ItemImg/TowerUp2","tip":"防御塔升级道具2"},
+{"id":4,"name":"TowerUp3","imgRes":"ItemImg/TowerUp3","tip":"防御塔升级道具3"},
+{"id":5,"name":"MainUp1","imgRes":"ItemImg/MainUp1","tip":"主塔升级道具1"},
+{"id":6,"name":"MainUp2","imgRes":"ItemImg/MainUp2","tip":"主塔升级道具2"},
+{"id":7,"name":"QuestBox","imgRes":"ItemImg/QuestBox","tip":"问号箱，可以开到升级道具或钻石"},
+{"id":8,"name":"Cat","imgRes":"ItemImg/Cat","tip":"迷失的小猫咪"},
+{"id":9,"name":"Enemy1","imgRes":"ItemImg/Enemy1","tip":"坏学生AR"},
+{"id":10,"name":"Enemy2","imgRes":"ItemImg/Enemy2","tip":"坏学生SMG"},
+{"id":11,"name":"Enemy3","imgRes":"ItemImg/Enemy3","tip":"Panzer"}
+]

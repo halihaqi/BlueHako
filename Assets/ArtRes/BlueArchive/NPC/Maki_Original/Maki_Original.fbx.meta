@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: c94dfea919d662145b73102b13faa900
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -7702941881700107023
+    second: Maki_Original_Normal_Reload
+  - first:
+      74: 6057020598641286626
+    second: Maki_Original_Exs_Cutin_Cam
+  - first:
+      74: 5147989911898401165
+    second: Maki_Original_Normal_Attack_ReadyStart
+  - first:
+      74: 2571168954928219214
+    second: Maki_Original_Normal_Idle
+  - first:
+      74: -7226688797290120236
+    second: Maki_Original_Vital_Death
+  - first:
+      74: 4148252346951478777
+    second: Maki_Original_Formation_Idle
+  - first:
+      74: -6050310498350124085
+    second: Maki_Original_Exs_Cutin
+  - first:
+      74: -2114282299872045117
+    second: Maki_Original_Cafe_Walk
+  - first:
+      74: 1930081353192874465
+    second: Maki_Original_Public01
+  - first:
+      74: -3231245490314851425
+    second: Maki_Original_Vital_Dying_ing
+  - first:
+      74: 8178789162389233591
+    second: Maki_Original_Normal_Attack_Ing
+  - first:
+      74: -1168824239001069286
+    second: Maki_Original_Normal_Attack_ReadyEnd
+  - first:
+      74: -3104015496688572199
+    second: Maki_Original_Normal_Callsign
+  - first:
+      74: -8014181047449407802
+    second: Maki_Original_Normal_Attack_Start
+  - first:
+      74: -7816972693668157161
+    second: Maki_Original_Move_Ing
+  - first:
+      74: -7695377115038329389
+    second: Maki_Original_Victory_End
+  - first:
+      74: -6762490188179049388
+    second: Maki_Original_Vital_Panic
+  - first:
+      74: -4755342896508625929
+    second: Maki_Original_Exs_Cutin_1
+  - first:
+      74: 4048818778022641675
+    second: Maki_Original_Exs
+  - first:
+      74: -5221529895654715289
+    second: Maki_Original_Formation_Pickup
+  - first:
+      74: -1523943236649730713
+    second: Recorded_2
+  - first:
+      74: -486358690039740023
+    second: Maki_Original_Cafe_Idle
+  - first:
+      74: 2609599006461851948
+    second: Maki_Original_Normal_Attack_Delay
+  - first:
+      74: 3762796642820520917
+    second: Maki_Original_Vital_Retreat
+  - first:
+      74: -6900707688549124386
+    second: Maki_Original_Cafe_Reaction
+  - first:
+      74: -4914140987085290464
+    second: Maki_Original_Move_End_Normal
+  - first:
+      74: 4484862260707246287
+    second: Maki_Original_Victory_Start
+  - first:
+      74: -4656707349217424104
+    second: Maki_Original_Normal_Attack_End
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: bone_root
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

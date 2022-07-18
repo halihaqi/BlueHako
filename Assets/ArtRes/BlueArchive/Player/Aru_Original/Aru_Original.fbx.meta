@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: 77b38159a8de782418e17d4eaa666a0e
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 3992743953756293099
+    second: Aru_Original_Normal_Attack_Ing
+  - first:
+      74: 8108181031825541876
+    second: Aru_Original_Normal_Idle
+  - first:
+      74: -7775713079161362403
+    second: Aru_Original_Exs_Cutin
+  - first:
+      74: -1648154277976476755
+    second: Aru_Original_Move_End_Kneel
+  - first:
+      74: 2645288575535736148
+    second: Aru_Original_Cafe_Walk
+  - first:
+      74: 3380492421452058650
+    second: Aru_Original_Kneel_Callsign
+  - first:
+      74: -1091366533798087959
+    second: Aru_Original_Cafe_Idle
+  - first:
+      74: 95881738430330789
+    second: Aru_Original_Normal_Attack_Delay
+  - first:
+      74: 7402508563631978070
+    second: Aru_Original_TSS_Interaction01
+  - first:
+      74: 1773167875937874635
+    second: Aru_Original_Vital_Panic
+  - first:
+      74: -3270861367100040359
+    second: Aru_Original_Vital_Dying_Ing
+  - first:
+      74: -7599181705770293046
+    second: Aru_Original_Kneel_Attack_Delay
+  - first:
+      74: 2637293137454474960
+    second: Aru_Original_Normal_Attack_End
+  - first:
+      74: -2921329598866023660
+    second: Aru_Original_Normal_Callsign
+  - first:
+      74: 2334479511494353291
+    second: Aru_Original_Kneel_Attack_Ing
+  - first:
+      74: -2726100345588672421
+    second: Aru_Original_Move_End_Normal
+  - first:
+      74: 994679039830735675
+    second: Aru_Original_Victory_End
+  - first:
+      74: -6125159095501999408
+    second: Aru_Original_Exs
+  - first:
+      74: 225244193193428655
+    second: Aru_Original_Kneel_Idle
+  - first:
+      74: -8569747407815031371
+    second: Aru_Original_Vital_Retreat
+  - first:
+      74: 3939778240494849248
+    second: Aru_Original_Normal_Attack_Start
+  - first:
+      74: 3591155024070095792
+    second: Aru_Original_Formation_Idle
+  - first:
+      74: 3534799367105289326
+    second: Aru_Original_Vital_Death
+  - first:
+      74: -3581119192964133192
+    second: Aru_Original_Formation_Pickup
+  - first:
+      74: 7515608229498778256
+    second: Aru_Original_Normal_Reload
+  - first:
+      74: -4502298095732519030
+    second: Aru_Original_Move_Callsign
+  - first:
+      74: 876333018726041523
+    second: Aru_Original_Exs_Cam
+  - first:
+      74: -7902390017607165740
+    second: Aru_Original_Kneel_Attack_Start
+  - first:
+      74: 6622496898658874014
+    second: Aru_Original_Public01
+  - first:
+      74: -5927135040706978167
+    second: Aru_Original_Cafe_Reaction
+  - first:
+      74: -5698552507373804083
+    second: Aru_Original_Kneel_Attack_End
+  - first:
+      74: 8067382373847564267
+    second: Aru_Original_Victory_Start
+  - first:
+      74: 682461548353470205
+    second: Aru_Original_Move_Ing
+  - first:
+      74: -5621969529574040311
+    second: Aru_Original_Kneel_Reload
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: bone_root
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
