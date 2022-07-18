@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shiroko_Start
+  m_Controller: {fileID: 9100000, guid: 4dcaae7335e47b04383922753bd30e1f, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 48d1e6d079959e8498317ff055245e2a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 62bacea6c53d09043acdd4e4399b90b5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 37b761ef196c5e3448c2b3bc31464fff, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7a0f1c023f0cf9e4993b28e74ebb9994, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 29444885efe1d7e4d9bcd4643acbbd68, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 423a97ef5fd562b4984c9014d0149255, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d4b3b71b2407bc04fa28f764b8fc40fb, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b4743f89faafa7f4db4dd1f00bd854ca, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 60db76f012ee11145b946f5e84b519b0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e9cd62f735b423f4787a475944d292f9, type: 2}

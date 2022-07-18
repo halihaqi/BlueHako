@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tower_Vulcan
+  m_Controller: {fileID: 9100000, guid: 155431007e9fa0e438cb651ba3cb0de3, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 28923517618b1d544a3d49507435602d, type: 2}
+    m_OverrideClip: {fileID: -5416383354619845107, guid: 424e1267ad7fd674ead1a310fb5bf586, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 5f554f880d258be49be32be1784d3e4b, type: 2}
+    m_OverrideClip: {fileID: 7548095188539715277, guid: 424e1267ad7fd674ead1a310fb5bf586, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: f13baede82b6cf246ad25a987184d0a3, type: 2}
+    m_OverrideClip: {fileID: -4560153161893558208, guid: 424e1267ad7fd674ead1a310fb5bf586, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 5d7d728b563889a4f8ae7defaf55d44b, type: 2}
+    m_OverrideClip: {fileID: -3852077283287624153, guid: 424e1267ad7fd674ead1a310fb5bf586, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: b8b9387d088e4ce458b9bd607775d2b8, type: 2}
+    m_OverrideClip: {fileID: -2344012927862627382, guid: 424e1267ad7fd674ead1a310fb5bf586, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: c9be9910e8f44d6418efdaa500383b5e, type: 2}
+    m_OverrideClip: {fileID: -8363200803151283291, guid: 424e1267ad7fd674ead1a310fb5bf586, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: ab0e3b88920119142964f32ca3ca7f06, type: 2}
+    m_OverrideClip: {fileID: 5835547467836480165, guid: 424e1267ad7fd674ead1a310fb5bf586, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 2ea3e122965177142910aeb5869fddcc, type: 2}
+    m_OverrideClip: {fileID: 3272715091708301808, guid: 424e1267ad7fd674ead1a310fb5bf586, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 22130f147a1689c43803b9c9c84fcddd, type: 2}
+    m_OverrideClip: {fileID: 5891645988752191376, guid: 424e1267ad7fd674ead1a310fb5bf586, type: 3}

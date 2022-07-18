@@ -1,0 +1,7 @@
+[
+{"id":0,"name":"Aru","res":"Prefabs/Player/Aru","imgRes":"RoleImg/Aru"},
+{"id":1,"name":"Hoshino","res":"Prefabs/Player/Hoshino","imgRes":"RoleImg/Hoshino"},
+{"id":2,"name":"Koharu","res":"Prefabs/Player/Koharu","imgRes":"RoleImg/Koharu"},
+{"id":3,"name":"Shiroko","res":"Prefabs/Player/Shiroko","imgRes":"RoleImg/Shiroko"},
+{"id":4,"name":"Aris","res":"Prefabs/Player/Aris","imgRes":"RoleImg/Aris"}
+]

@@ -1,0 +1,14 @@
+[
+{"id":0,"name":"迷途猫","needId":8,"needNum":1,"tip":"我家的猫又跑了，可以帮我找到它吗?","hard":1,"rewardId":2,"rewardNum":3},
+{"id":1,"name":"迷途猫(2)","needId":8,"needNum":2,"tip":"我家的猫双跑了，可以帮我找到它们吗?","hard":2,"rewardId":3,"rewardNum":3},
+{"id":2,"name":"迷途猫(3)","needId":8,"needNum":3,"tip":"我家的猫叒跑了，可以帮我找到它们吗?","hard":3,"rewardId":4,"rewardNum":3},
+{"id":3,"name":"疯狂星期四","needId":0,"needNum":50,"tip":"救命！肯基德校长被枪击中了！所以今天是肯基德疯狂星期四，谁v我50买个套餐","hard":1,"rewardId":5,"rewardNum":1},
+{"id":4,"name":"疯狂星期四(2)","needId":0,"needNum":100,"tip":"我是肯基德基沃托斯的地区总经理，我们校长被击毙了！快v我100给他做心肺复苏","hard":2,"rewardId":6,"rewardNum":1},
+{"id":5,"name":"疯狂星期四(3)","needId":0,"needNum":300,"tip":"我是肯基德校长，我被学生击中了，求求好心人v我300，让我在临死前吃一口疯狂星期四","hard":3,"rewardId":7,"rewardNum":3},
+{"id":6,"name":"赌博默示录","needId":7,"needNum":1,"tip":"呜呜呜。。。没有钻石买问号箱了，求求好心人给我一发单抽","hard":1,"rewardId":2,"rewardNum":1},
+{"id":7,"name":"赌博默示录(2)","needId":7,"needNum":3,"tip":"感谢好心人的单抽让我一发入魂，我一高兴又抽了100抽全亏了。。。求求好心人给我三发单抽","hard":2,"rewardId":3,"rewardNum":1},
+{"id":8,"name":"赌博默示录(3)","needId":7,"needNum":10,"tip":"感谢好心人的3发单抽，我已经住上基沃托斯总统套房了。为了回馈大家，如果有人给我一发十连，我就送他一套房！","hard":3,"rewardId":8,"rewardNum":1},
+{"id":9,"name":"战斗吧！舞台少女们","needId":9,"needNum":35,"tip":"击杀35个狙击兵","hard":1,"rewardId":0,"rewardNum":300},
+{"id":10,"name":"战斗吧！舞台少女们(1)","needId":10,"needNum":100,"tip":"击杀100个步兵","hard":2,"rewardId":0,"rewardNum":600},
+{"id":11,"name":"战斗吧！舞台少女们(2)","needId":11,"needNum":20,"tip":"击杀20个坦克","hard":3,"rewardId":0,"rewardNum":1000}
+]

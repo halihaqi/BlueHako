@@ -1,0 +1,2124 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.33f1c2 (8e753a737e7b) revision 9336122'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'zh' Physical Memory: 16302 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.33f1c2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Documents/UnityProject/Hakoniwa
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+14780
+Successfully changed project path to: E:/Documents/UnityProject/Hakoniwa
+E:/Documents/UnityProject/Hakoniwa
+Using Asset Import Pipeline V2.
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 91.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.33f1c2 (8e753a737e7b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1c2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Documents/UnityProject/Hakoniwa/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1c2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1c2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1c2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1c2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001481 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 107.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.772 seconds
+Domain Reload Profiling:
+	ReloadAssembly (773ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (618ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003489 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Documents\UnityProject\Hakoniwa\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.383 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1384ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1117ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (450ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1648 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.6 MB.
+System memory in use after: 97.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2137.
+Total: 6.095200 ms (FindLiveObjects: 0.166700 ms CreateObjectMapping: 0.082700 ms MarkObjects: 5.774800 ms  DeleteObjects: 0.069000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Resources/SceneImg/TowerBath.png
+  artifactKey: Guid(0c994e54d3249914d8ae938193d9e0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SceneImg/TowerBath.png using Guid(0c994e54d3249914d8ae938193d9e0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10cc091b66cdafe06dba6f21755a4ad') in 0.138144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 96.444764 seconds.
+  path: Assets/Scripts/BeginScene/UI/AboutPanel.cs
+  artifactKey: Guid(40a0138fe4ec29c43b51e732326811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BeginScene/UI/AboutPanel.cs using Guid(40a0138fe4ec29c43b51e732326811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1662e392b22e6af13fe4eba2e346377c') in 0.019564 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005012 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Documents\UnityProject\Hakoniwa\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.798 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2798ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (2510ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (568ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (1427ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (192ms)
+				ProcessInitializeOnLoadAttributes (1177ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2147.
+Total: 92.709900 ms (FindLiveObjects: 0.293500 ms CreateObjectMapping: 0.085200 ms MarkObjects: 92.292600 ms  DeleteObjects: 0.036500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23.366768 seconds.
+  path: Assets/Scripts/BeginScene/UI/AboutPanel.cs
+  artifactKey: Guid(40a0138fe4ec29c43b51e732326811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BeginScene/UI/AboutPanel.cs using Guid(40a0138fe4ec29c43b51e732326811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f146c0d4be7f97ecf60d8bd7b5d79b94') in 0.155331 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010167 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Documents\UnityProject\Hakoniwa\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 27.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 14.989 seconds
+Domain Reload Profiling:
+	ReloadAssembly (14990ms)
+		BeginReloadAssembly (289ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (14464ms)
+			LoadAssemblies (544ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1233ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (466ms)
+			SetupLoadedEditorAssemblies (10598ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (28ms)
+				BeforeProcessingInitializeOnLoad (2901ms)
+				ProcessInitializeOnLoadAttributes (7585ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (36ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2150.
+Total: 78.919000 ms (FindLiveObjects: 0.367500 ms CreateObjectMapping: 0.125800 ms MarkObjects: 78.194000 ms  DeleteObjects: 0.229900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 42.845177 seconds.
+  path: Assets/Scripts/BeginScene/UI/AboutPanel.cs
+  artifactKey: Guid(40a0138fe4ec29c43b51e732326811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BeginScene/UI/AboutPanel.cs using Guid(40a0138fe4ec29c43b51e732326811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7192d061e39e7e212b73d37d87af3d') in 0.012093 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004035 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Documents\UnityProject\Hakoniwa\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.997 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1998ms)
+		BeginReloadAssembly (200ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1616ms)
+			LoadAssemblies (188ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (466ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (732ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (533ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.7 MB.
+System memory in use after: 100.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2153.
+Total: 5.585800 ms (FindLiveObjects: 0.141700 ms CreateObjectMapping: 0.062700 ms MarkObjects: 4.705200 ms  DeleteObjects: 0.673800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14.290130 seconds.
+  path: Assets/Resources/UI/AboutPanel.prefab
+  artifactKey: Guid(8fa796e80ba011c429adcc4bcd1b8429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/AboutPanel.prefab using Guid(8fa796e80ba011c429adcc4bcd1b8429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edf5487330ae129937656041dcc5878') in 0.119789 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005553 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Documents\UnityProject\Hakoniwa\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.737 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1737ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1420ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (484ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (613ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (470ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.7 MB.
+System memory in use after: 100.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2156.
+Total: 2.798500 ms (FindLiveObjects: 0.257800 ms CreateObjectMapping: 0.145900 ms MarkObjects: 2.369300 ms  DeleteObjects: 0.024300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 195.139971 seconds.
+  path: Assets/Resources/UI/ExitPanel.prefab
+  artifactKey: Guid(1b01ba286a9be1b4688bb516dff8a83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/ExitPanel.prefab using Guid(1b01ba286a9be1b4688bb516dff8a83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bc52315e7e1d82f599d9a6a51af22b') in 0.149247 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003166 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Documents\UnityProject\Hakoniwa\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Domain Reload Profiling:
+	ReloadAssembly (946ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (771ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.7 MB.
+System memory in use after: 100.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2159.
+Total: 2.410100 ms (FindLiveObjects: 0.132200 ms CreateObjectMapping: 0.051300 ms MarkObjects: 2.208800 ms  DeleteObjects: 0.017100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11.428471 seconds.
+  path: Assets/Resources/UI/AboutPanel.prefab
+  artifactKey: Guid(8fa796e80ba011c429adcc4bcd1b8429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/AboutPanel.prefab using Guid(8fa796e80ba011c429adcc4bcd1b8429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4a34be372ac41f377110f6c6d59629') in 0.044131 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002916 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Documents\UnityProject\Hakoniwa\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.988 seconds
+Domain Reload Profiling:
+	ReloadAssembly (989ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (823ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.7 MB.
+System memory in use after: 100.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2162.
+Total: 2.603000 ms (FindLiveObjects: 0.129000 ms CreateObjectMapping: 0.053700 ms MarkObjects: 2.379500 ms  DeleteObjects: 0.040000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003459 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Documents\UnityProject\Hakoniwa\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.964 seconds
+Domain Reload Profiling:
+	ReloadAssembly (965ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (796ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (247ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.7 MB.
+System memory in use after: 100.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2165.
+Total: 2.433500 ms (FindLiveObjects: 0.121100 ms CreateObjectMapping: 0.051600 ms MarkObjects: 2.242100 ms  DeleteObjects: 0.018000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 764.681736 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx
+  artifactKey: Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx using Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3f8021a406290979e14690c65e4359') in 0.188099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.149673 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx
+  artifactKey: Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx using Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354d093cf5355975192fa981af3ba604') in 0.165050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 126.371276 seconds.
+  path: Assets/ArtRes/BlueArchive/Mouse/Character_Mouth_Black.png
+  artifactKey: Guid(a2f0b5e6c6dc78c47840b879c23d651a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Mouse/Character_Mouth_Black.png using Guid(a2f0b5e6c6dc78c47840b879c23d651a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4763e956f711c4644beacb6c08ee13d7') in 0.031581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.739728 seconds.
+  path: Assets/ArtRes/KawaiiCity/Materials/AC.mat
+  artifactKey: Guid(f864571c8dbd859459b1d4f0efc14e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/KawaiiCity/Materials/AC.mat using Guid(f864571c8dbd859459b1d4f0efc14e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955185072cb57be27b96af6de12fe841') in 0.199583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Arcane/ArcaneSphere.mat
+  artifactKey: Guid(958f8c2fa0a6293479194fe50a889381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Arcane/ArcaneSphere.mat using Guid(958f8c2fa0a6293479194fe50a889381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339920757f836ba9a83a3c8d9cb3257f') in 0.057049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Arcane/ArcaneLines.mat
+  artifactKey: Guid(c63d8954b4144d04c98219ec9f0e9fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Arcane/ArcaneLines.mat using Guid(c63d8954b4144d04c98219ec9f0e9fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bd78cf935e82460b11c0ea6ad98df5') in 0.064388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Pre-Colored Rings/AuraEarth.mat
+  artifactKey: Guid(a38c635607b4e2f4c99f17ab0ae6062d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Pre-Colored Rings/AuraEarth.mat using Guid(a38c635607b4e2f4c99f17ab0ae6062d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ecbd8796fd4366ff92074fe2eaa9a07') in 0.053625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Pre-Colored Rings/AuraLightning.mat
+  artifactKey: Guid(49d69f9fc5784d5439eb733341dd9e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Pre-Colored Rings/AuraLightning.mat using Guid(49d69f9fc5784d5439eb733341dd9e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e0d1bcb9c49416f4c39c8588148537') in 0.058200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Materials/Aru_Original_Halo.mat
+  artifactKey: Guid(fcf4239b1d3d219409df0568567ab486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Materials/Aru_Original_Halo.mat using Guid(fcf4239b1d3d219409df0568567ab486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82aa8bfdecddd1bf3cbdcdf134f2f45') in 0.009949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Multi-Purpose/Aura01.mat
+  artifactKey: Guid(7af85c482ccb8044b95074f3fb145d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Multi-Purpose/Aura01.mat using Guid(7af85c482ccb8044b95074f3fb145d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75c9262584baf762eafaa3979f0f2e2') in 0.053309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/ArtRes/KawaiiCity/Materials/Asphalt.mat
+  artifactKey: Guid(b80c784cbd64a8747b438d1faa661416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/KawaiiCity/Materials/Asphalt.mat using Guid(b80c784cbd64a8747b438d1faa661416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b277a13b53c0d2134c2370e005840d57') in 0.029212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Pre-Colored Rings/AuraFrost.mat
+  artifactKey: Guid(e28282aaccf4d0e41a8e3acf277ee9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Pre-Colored Rings/AuraFrost.mat using Guid(e28282aaccf4d0e41a8e3acf277ee9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74e7a2b7f5b3d65c7710f4fe71ea41b') in 0.035880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Pre-Colored Rings/AuraFire.mat
+  artifactKey: Guid(6b25379b7449ba642878b359944098b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Pre-Colored Rings/AuraFire.mat using Guid(6b25379b7449ba642878b359944098b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb00595ef2c7811592be81aa485d02b') in 0.020725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Arcane/arcane_twirl.mat
+  artifactKey: Guid(6a89627430d3b5b44b6f33272c5af5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Arcane/arcane_twirl.mat using Guid(6a89627430d3b5b44b6f33272c5af5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140c04b575ec4e48a44391fc96659d93') in 0.019006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Arcane/ArcaneTwirl.mat
+  artifactKey: Guid(e661e014d002b6548a83c8703560068d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Arcane/ArcaneTwirl.mat using Guid(e661e014d002b6548a83c8703560068d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58588855c91b8780ad4cd2287d65a56') in 0.039149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Multi-Purpose/Aura03.mat
+  artifactKey: Guid(a2996aec2ad807e4fb2392e43f688415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Multi-Purpose/Aura03.mat using Guid(a2996aec2ad807e4fb2392e43f688415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab9afd9f3e38002d851f17e56c85bb8') in 0.044462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Multi-Purpose/AuraDOT2.mat
+  artifactKey: Guid(0295b4c52f7deea4594591527f325d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Multi-Purpose/AuraDOT2.mat using Guid(0295b4c52f7deea4594591527f325d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed482ae2d1fd7cf5caca53c79e387f0') in 0.039383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Pre-Colored Rings/AuraLight.mat
+  artifactKey: Guid(594cc92476cb81243b6d7eb2e34bbbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Pre-Colored Rings/AuraLight.mat using Guid(594cc92476cb81243b6d7eb2e34bbbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e60e9ed81e3208cfe1da68ae649ed4') in 0.011724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/Materials/Aru_Original_Halo_Double.mat
+  artifactKey: Guid(e5db885f53a587d4abc50beae58d7c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Aru_Original_Halo_Double.mat using Guid(e5db885f53a587d4abc50beae58d7c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f80163681af040882a202ccd41edcc0') in 0.017228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Multi-Purpose/Aura06.mat
+  artifactKey: Guid(5a5ebf7bcf861fb4fbd54b40f5b09960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Multi-Purpose/Aura06.mat using Guid(5a5ebf7bcf861fb4fbd54b40f5b09960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c677ff271a3beafaa2f13cb1ef96d119') in 0.034221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000679 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/arcanebeam.mat
+  artifactKey: Guid(6b27fba9c4dfa454caf8f3aa92c28a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/arcanebeam.mat using Guid(6b27fba9c4dfa454caf8f3aa92c28a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72ffecced774f35babbf8fb759117d4') in 0.103600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Arcane/ArcaneGlowDoubleSide.mat
+  artifactKey: Guid(d68a837b40e3fdc47a88e95210a431a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Arcane/ArcaneGlowDoubleSide.mat using Guid(d68a837b40e3fdc47a88e95210a431a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9eaba43ff28708f93cf966b97cda4d') in 0.121217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Materials/Aru_Original_Weapon.mat
+  artifactKey: Guid(50ee23ccecb94394a895a6186c80564a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Materials/Aru_Original_Weapon.mat using Guid(50ee23ccecb94394a895a6186c80564a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962ef48dae4430fa9dffde9a0531f9e9') in 0.009061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Pre-Colored Rings/AuraStorm.mat
+  artifactKey: Guid(fa7ec51fd191b3b4f86a6fc775741602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Pre-Colored Rings/AuraStorm.mat using Guid(fa7ec51fd191b3b4f86a6fc775741602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2dc9b94c683264bd308035717298f0') in 0.028045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Arcane/ArcaneSpark.mat
+  artifactKey: Guid(c3205f22c5abc104ca3fed12ab264aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Arcane/ArcaneSpark.mat using Guid(c3205f22c5abc104ca3fed12ab264aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2273543bb8b054c3ba2014148e97a2e2') in 0.023393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Multi-Purpose/Aura05.mat
+  artifactKey: Guid(41b1ecad8ea7c2a49bdf88edf74979b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Multi-Purpose/Aura05.mat using Guid(41b1ecad8ea7c2a49bdf88edf74979b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3229c6480f33c182ce4a8b507f6e4db6') in 0.053942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Pre-Colored Rings/AuraArcane.mat
+  artifactKey: Guid(becd8defa3b65a046a622f51a9a8db72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Pre-Colored Rings/AuraArcane.mat using Guid(becd8defa3b65a046a622f51a9a8db72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065855a45f06d698473245fdcd2fe575') in 0.024903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Materials/Aru_Original_Face.mat
+  artifactKey: Guid(ee6d15086fc1ce14981d9d6bb52386c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Materials/Aru_Original_Face.mat using Guid(ee6d15086fc1ce14981d9d6bb52386c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5af708ab80733a26c630018d5806916') in 0.008835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Arcane/ArcaneGlow.mat
+  artifactKey: Guid(1ae55ae61d1144248b1cbd80a738177c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Arcane/ArcaneGlow.mat using Guid(1ae55ae61d1144248b1cbd80a738177c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d095afab7192c460c576723769bfcd') in 0.009289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Icons/Materials/Arcane.mat
+  artifactKey: Guid(10b455210db723848a196212d012e361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Icons/Materials/Arcane.mat using Guid(10b455210db723848a196212d012e361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875398ca6f8d547d8354c61e8d9c04f6') in 0.048310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000766 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Multi-Purpose/Aura07.mat
+  artifactKey: Guid(41a972c72e0dd334b8924114e2ca3a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Multi-Purpose/Aura07.mat using Guid(41a972c72e0dd334b8924114e2ca3a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0636805c2b1bc0b7e73a3b9e7afa5581') in 0.059387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Materials/Aru_Original_Eyebrow.mat
+  artifactKey: Guid(53c925ffa560dde4caf0e804dc3d6472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Materials/Aru_Original_Eyebrow.mat using Guid(53c925ffa560dde4caf0e804dc3d6472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f9b604a9da387b1e7721f8673b5257') in 0.009713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Multi-Purpose/Aura02.mat
+  artifactKey: Guid(27b2f7b5a9151e445a81af85c9f9632f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Multi-Purpose/Aura02.mat using Guid(27b2f7b5a9151e445a81af85c9f9632f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd5c29c1710125682f91914ca647132') in 0.069117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Materials/Aru_Original_EyeMouth.mat
+  artifactKey: Guid(2463f6fb5aa7f20448f786cf50085460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Materials/Aru_Original_EyeMouth.mat using Guid(2463f6fb5aa7f20448f786cf50085460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a160afdf41c8e973f3ef00fefd0c75') in 0.027880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000824 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Materials/Aru_Original_Body.mat
+  artifactKey: Guid(e0d495778bce94040a4f5f95fbba7fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Materials/Aru_Original_Body.mat using Guid(e0d495778bce94040a4f5f95fbba7fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd48f3f188aec6c1dd026ceb4ebdd9c') in 0.020624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Pre-Colored Rings/AuraWater.mat
+  artifactKey: Guid(9f16d70369f49d34cab5a334704f956e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Pre-Colored Rings/AuraWater.mat using Guid(9f16d70369f49d34cab5a334704f956e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcddfb09d7a5f61c521c55c6bfcf0514') in 0.032333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Multi-Purpose/AuraDOT.mat
+  artifactKey: Guid(f0599ba31f7488d42b1efd752c8cb8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Multi-Purpose/AuraDOT.mat using Guid(f0599ba31f7488d42b1efd752c8cb8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef151b4e624cb761c069c0672e3a110') in 0.036036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Multi-Purpose/Aura08.mat
+  artifactKey: Guid(09209a21016093749ad60975ff898160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Multi-Purpose/Aura08.mat using Guid(09209a21016093749ad60975ff898160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93496b2c8597c999ea6be9f8783a4f5') in 0.060236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Pre-Colored Rings/AuraShadow.mat
+  artifactKey: Guid(73f87da0bf581a242b1e06b3dced4457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Pre-Colored Rings/AuraShadow.mat using Guid(73f87da0bf581a242b1e06b3dced4457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c30e2b4bcb177e0f8742d650fbf21a') in 0.028709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Materials/Aru_Original_Hair.mat
+  artifactKey: Guid(b3d3939b2f7c5b94d9a951574c74b091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Materials/Aru_Original_Hair.mat using Guid(b3d3939b2f7c5b94d9a951574c74b091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b8c84a9a9b439de88ef3102be8a650') in 0.008954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.460389 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/cleave_shadow.mat
+  artifactKey: Guid(6b426047bcbb1614dbbf8c0e5565f5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/cleave_shadow.mat using Guid(6b426047bcbb1614dbbf8c0e5565f5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25cdb1fa60244fcae900307936fff8e') in 0.219475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/GroundShadow.mat
+  artifactKey: Guid(d479638294145404281aee6bbc0b7f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/GroundShadow.mat using Guid(d479638294145404281aee6bbc0b7f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4747f28d7054e05c051e7691073f6ac4') in 0.142728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Koharu_Original/Koharu_Original.fbx
+  artifactKey: Guid(1904859406ed3eb468cb79cfb5fd7ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Koharu_Original/Koharu_Original.fbx using Guid(1904859406ed3eb468cb79cfb5fd7ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31dc13ab4d68dd31c11fde0b9accdd9e') in 2.222158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Shadow/ShadowMoth.mat
+  artifactKey: Guid(2addb0357eee95f41b6217c051095679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Shadow/ShadowMoth.mat using Guid(2addb0357eee95f41b6217c051095679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1cc9799d81a1638176b8334b086ec52') in 0.067362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Icons/Materials/Shadow.mat
+  artifactKey: Guid(262d66c73c8ea3a448c60ab9d2c88d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Icons/Materials/Shadow.mat using Guid(262d66c73c8ea3a448c60ab9d2c88d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44833a4dd6a63c9f23e6b3a3422824f6') in 0.042880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000802 seconds.
+  path: Assets/Materials/Koharu_Original_Halo_Double.mat
+  artifactKey: Guid(f1b4f1d39568a964da5a3a8c7a97aa84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Koharu_Original_Halo_Double.mat using Guid(f1b4f1d39568a964da5a3a8c7a97aa84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc35b9471ec19c6516521e47e13955fc') in 0.023266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/shadowbeam2.mat
+  artifactKey: Guid(c8a91193407f24146897b08eba9908e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/shadowbeam2.mat using Guid(c8a91193407f24146897b08eba9908e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9d16133fcdabd33fafa4c389656c4d') in 0.080565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Shiroko_Original/Shiroko_Original.fbx
+  artifactKey: Guid(98f6bcf672c2ce44389b34bfb4a6320e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Shiroko_Original/Shiroko_Original.fbx using Guid(98f6bcf672c2ce44389b34bfb4a6320e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bf66d24101d8b2ba483fe8a4e5c507') in 0.364721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Materials/Shiroko_Original_Halo_Double.mat
+  artifactKey: Guid(7e38a03c35ed4714ab4c82a580496aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Shiroko_Original_Halo_Double.mat using Guid(7e38a03c35ed4714ab4c82a580496aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5007c47c18ddadfdbb972b1b420e147') in 0.012635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/Materials/Hoshino_Original_Halo_Double.mat
+  artifactKey: Guid(23b2a1b413396cd4dae3e78917629e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Hoshino_Original_Halo_Double.mat using Guid(23b2a1b413396cd4dae3e78917629e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036417af70eacfa1da8183162a281e0b') in 0.009041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Shadow/ShadowTentacles.mat
+  artifactKey: Guid(5af7e0d30acac7a418e3e7c899a00488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Shadow/ShadowTentacles.mat using Guid(5af7e0d30acac7a418e3e7c899a00488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44de1d64d3928333b3ab07caec95e02') in 0.066003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Hoshino_Original/Hoshino_Original.fbx
+  artifactKey: Guid(8f3cb9ce915623840bd992477eba5711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Hoshino_Original/Hoshino_Original.fbx using Guid(8f3cb9ce915623840bd992477eba5711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498a5d1252bdb61ef79839bebed35e20') in 0.296578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Storm/StormSharpSwirl.mat
+  artifactKey: Guid(130bdc6151982754a8f7b5197f716c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Storm/StormSharpSwirl.mat using Guid(130bdc6151982754a8f7b5197f716c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14bd2e6b8cf38036682a6ba8cadd9f43') in 0.041217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Trails/shadowtrail.mat
+  artifactKey: Guid(074b76466802f2344976b52a3c5e5df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Trails/shadowtrail.mat using Guid(074b76466802f2344976b52a3c5e5df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ca8dc1210d87fbfc8010b61d728073') in 0.044024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/ShieldShadow.mat
+  artifactKey: Guid(e27c11fd4c988794a8261f1d7ac9b6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/ShieldShadow.mat using Guid(e27c11fd4c988794a8261f1d7ac9b6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d95f0200f3c530804cac413fe5c90c3') in 0.046630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/ArtRes/MagicArsenal/Demo/Models/Materials/SwordGlowShadow.mat
+  artifactKey: Guid(b947a59f964fb76498e3844cf7450b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Demo/Models/Materials/SwordGlowShadow.mat using Guid(b947a59f964fb76498e3844cf7450b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3695dfa6acc9b7baeb3dcc8c423a71') in 0.019918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000583 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Shadow/ShadowMothball.mat
+  artifactKey: Guid(c390ef9547ec0ce479a2c9f1130dbb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Shadow/ShadowMothball.mat using Guid(c390ef9547ec0ce479a2c9f1130dbb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5de41d7015f3a50ecf6ae4eb0bc1aa') in 0.039200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/shadowbeam.mat
+  artifactKey: Guid(d8df91933aac9fa49bf4be1232218b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/shadowbeam.mat using Guid(d8df91933aac9fa49bf4be1232218b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7146af258a4ad6ece104d65ca3947c18') in 0.058497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001152 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Shadow/ShadowOrb.mat
+  artifactKey: Guid(cdc3bdec1cbb4874ab6f8f8524af3ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Shadow/ShadowOrb.mat using Guid(cdc3bdec1cbb4874ab6f8f8524af3ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8c70b5937a0fb2214ceb767f2784e0') in 0.032864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 92.975998 seconds.
+  path: Assets/ArtRes/BlueArchive/Mouse/嘴巴遮罩.png
+  artifactKey: Guid(06edddfcb7ff9194fba37bc309a8aefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Mouse/嘴巴遮罩.png using Guid(06edddfcb7ff9194fba37bc309a8aefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60072a25f1cce6f02bcb41584a8e15b') in 0.045877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 119.286685 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Materials
+  artifactKey: Guid(93c3752fef298a142bdf37ad3efd94f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Materials using Guid(93c3752fef298a142bdf37ad3efd94f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fc1d82698e1b60c96c636927df7076') in 0.002610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.603080 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx
+  artifactKey: Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx using Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e290c06886daa86101d54def16557f82') in 0.099351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.999632 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx
+  artifactKey: Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx using Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2732df4ed222eb8a7bb1ece1e1075c57') in 0.104099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.142256 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx
+  artifactKey: Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx using Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecfb795dfb833b1cf749aab991ab9d5') in 0.138343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.182838 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx
+  artifactKey: Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx using Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c2e65c2335ffd8354bc9b919e1200a') in 0.136918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.260026 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx
+  artifactKey: Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx using Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d8eef081c9ad921560c95760ae9540') in 0.092006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.072926 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx
+  artifactKey: Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx using Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900c12d2eac6a70dfb93fe770ad34dd6') in 0.094617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.688457 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx
+  artifactKey: Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx using Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0652241cbd61ddac1db53d17f1e2b0e4') in 0.098735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 117.807609 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx
+  artifactKey: Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx using Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd034e478b5f882c9ee9d5ef86d816b9') in 0.132325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.136370 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx
+  artifactKey: Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx using Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5b55ec8ee52b7a37874108d29fa66c') in 0.124786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.294379 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx
+  artifactKey: Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original.fbx using Guid(77b38159a8de782418e17d4eaa666a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7701473d70095eb764d43dc241576d3c') in 0.100076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 117.690878 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original_EyeMouth.png
+  artifactKey: Guid(58325e1c68aa658479cee60520fee382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original_EyeMouth.png using Guid(58325e1c68aa658479cee60520fee382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a93735b6891754c6874f37f29b99d7c') in 0.009969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 272.297026 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original_Formation_Pickup.anim
+  artifactKey: Guid(60db76f012ee11145b946f5e84b519b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original_Formation_Pickup.anim using Guid(60db76f012ee11145b946f5e84b519b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d28db9e46793e00d65d4c5641b9258f') in 0.018011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.477485 seconds.
+  path: Assets/Resources/Anim/StartScene/Aru/Aru_Original_Cafe_Idle.anim
+  artifactKey: Guid(37b761ef196c5e3448c2b3bc31464fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Anim/StartScene/Aru/Aru_Original_Cafe_Idle.anim using Guid(37b761ef196c5e3448c2b3bc31464fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5760d687b939f9451702410b78a085c1') in 0.011778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.017521 seconds.
+  path: Assets/Resources/Anim/StartScene/Aru/Aru_Original_Cafe_Reaction.anim
+  artifactKey: Guid(29444885efe1d7e4d9bcd4643acbbd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Anim/StartScene/Aru/Aru_Original_Cafe_Reaction.anim using Guid(29444885efe1d7e4d9bcd4643acbbd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd646f77f90b09a7e82aaec0208b985') in 0.025140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.487097 seconds.
+  path: Assets/Resources/Anim/StartScene/Aru/Aru_Original_Formation_Idle.anim
+  artifactKey: Guid(48d1e6d079959e8498317ff055245e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Anim/StartScene/Aru/Aru_Original_Formation_Idle.anim using Guid(48d1e6d079959e8498317ff055245e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea5571a1d9fad7c53a9cbc8d0067def') in 0.014185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.024605 seconds.
+  path: Assets/Resources/Anim/StartScene/Aru/Aru_Begin_Idle.anim
+  artifactKey: Guid(48d1e6d079959e8498317ff055245e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Anim/StartScene/Aru/Aru_Begin_Idle.anim using Guid(48d1e6d079959e8498317ff055245e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b417447204f921256075864f210e0c5') in 0.012086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.726349 seconds.
+  path: Assets/Resources/Anim/StartScene/Aru/Aru_Cafe_Idle.anim
+  artifactKey: Guid(37b761ef196c5e3448c2b3bc31464fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Anim/StartScene/Aru/Aru_Cafe_Idle.anim using Guid(37b761ef196c5e3448c2b3bc31464fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9ba7861678db917b6f5db41ba899eb') in 0.011001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.238683 seconds.
+  path: Assets/Resources/Anim/StartScene/Aru/Aru_Cafe_Reaction.anim
+  artifactKey: Guid(29444885efe1d7e4d9bcd4643acbbd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Anim/StartScene/Aru/Aru_Cafe_Reaction.anim using Guid(29444885efe1d7e4d9bcd4643acbbd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a29af740d062a6cc99b25606b94b13f') in 0.023727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.606173 seconds.
+  path: Assets/Resources/Anim/StartScene/Aru/Aru_Original_Cafe_Walk.anim
+  artifactKey: Guid(d4b3b71b2407bc04fa28f764b8fc40fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Anim/StartScene/Aru/Aru_Original_Cafe_Walk.anim using Guid(d4b3b71b2407bc04fa28f764b8fc40fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378f57fc054852698dd063a5eeeae223') in 0.015827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.801621 seconds.
+  path: Assets/Resources/Anim/StartScene/Aru/Aru_Cafe_Walk.anim
+  artifactKey: Guid(d4b3b71b2407bc04fa28f764b8fc40fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Anim/StartScene/Aru/Aru_Cafe_Walk.anim using Guid(d4b3b71b2407bc04fa28f764b8fc40fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc44436850bfa250344f09fa71cf4951') in 0.012648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.643921 seconds.
+  path: Assets/Resources/Anim/StartScene/Aru/Aru_Pickup.anim
+  artifactKey: Guid(60db76f012ee11145b946f5e84b519b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Anim/StartScene/Aru/Aru_Pickup.anim using Guid(60db76f012ee11145b946f5e84b519b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8a99c746168567917bf859099c0a31') in 0.014142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 181.651100 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aris_Original/Aris_Original.fbx
+  artifactKey: Guid(1f2fbdf31387c6f4f9e222c0e5d7a753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aris_Original/Aris_Original.fbx using Guid(1f2fbdf31387c6f4f9e222c0e5d7a753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2944e29dc006e45c933df20f70e9db55') in 0.136573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 346.014893 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Hoshino_Original/Hoshino_Original.fbx
+  artifactKey: Guid(8f3cb9ce915623840bd992477eba5711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Hoshino_Original/Hoshino_Original.fbx using Guid(8f3cb9ce915623840bd992477eba5711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be91105e4d230f57cfb32fc580ff3de') in 0.132975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 172.636840 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aris_Original/Materials/Aris_Original_Body.mat
+  artifactKey: Guid(a1ca2ee9542513b41b8f296fbbf94e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aris_Original/Materials/Aris_Original_Body.mat using Guid(a1ca2ee9542513b41b8f296fbbf94e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aace6fa1afcc83e703f44089a09cf722') in 0.014155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aris_Original/Materials/Aris_Original_Halo.mat
+  artifactKey: Guid(ca700254e5cc9b44cb37bd7383ce5811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aris_Original/Materials/Aris_Original_Halo.mat using Guid(ca700254e5cc9b44cb37bd7383ce5811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb0a6ff12c83eda0e171afec130a9d5') in 0.035105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aris_Original/Materials/Aris_Original_Weapon_Glow.mat
+  artifactKey: Guid(9293e91c04fbe614dbddae60b6ba8e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aris_Original/Materials/Aris_Original_Weapon_Glow.mat using Guid(9293e91c04fbe614dbddae60b6ba8e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735e6b14672670f337dd2a9556f77e1d') in 0.015070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aris_Original/Materials/Aris_Original_Weapon.mat
+  artifactKey: Guid(d6ae269b923d1c249bc96978f5e8f7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aris_Original/Materials/Aris_Original_Weapon.mat using Guid(d6ae269b923d1c249bc96978f5e8f7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55aaf22aceb007ed059bbeb654882aa') in 0.089711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aris_Original/Materials/Aris_Original_Eyebrow.mat
+  artifactKey: Guid(d11582b6c393b5548a95463da8ac27f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aris_Original/Materials/Aris_Original_Eyebrow.mat using Guid(d11582b6c393b5548a95463da8ac27f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822dd02547bd752bfe706b42e84d964c') in 0.011395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aris_Original/Materials/Aris_Original_Face.mat
+  artifactKey: Guid(af153811bb97f2946bfed2bc53eb5451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aris_Original/Materials/Aris_Original_Face.mat using Guid(af153811bb97f2946bfed2bc53eb5451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73169147ef78e9e693c28e0444cb06e') in 0.020938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aris_Original/Materials/Aris_Original_Hair.mat
+  artifactKey: Guid(9665387aed27e4d458d00794d19bbd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aris_Original/Materials/Aris_Original_Hair.mat using Guid(9665387aed27e4d458d00794d19bbd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c2d555bd67375642208e9b4a2fcf9f') in 0.014150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.064417 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Hoshino_Original/Materials/Hoshino_Original_Hair.mat
+  artifactKey: Guid(458fa13a43748594eb5cd71a4a397fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Hoshino_Original/Materials/Hoshino_Original_Hair.mat using Guid(458fa13a43748594eb5cd71a4a397fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a2fff30f97fac910a1e96740b277d7') in 0.010979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Hoshino_Original/Materials/Hoshino_Original_Halo.mat
+  artifactKey: Guid(bc405ed25add5d64689821a7ae8dc2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Hoshino_Original/Materials/Hoshino_Original_Halo.mat using Guid(bc405ed25add5d64689821a7ae8dc2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df39786ee60dd456773aa5dbbee76cea') in 0.017866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.866230 seconds.
+  path: Assets/ArtRes/KawaiiCity/Materials/Graffiti 3.mat
+  artifactKey: Guid(086e6c2878a02f8479022b36be202781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/KawaiiCity/Materials/Graffiti 3.mat using Guid(086e6c2878a02f8479022b36be202781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec69ef274c8f8a5600899fbc6291991a') in 0.201434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Hoshino_Original/Materials/Hoshino_Original_EyeMouth.mat
+  artifactKey: Guid(4be481f7d5347bf4181de0050d3dbaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Hoshino_Original/Materials/Hoshino_Original_EyeMouth.mat using Guid(4be481f7d5347bf4181de0050d3dbaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9e479811891928dd09e5dbe4e3501e') in 0.009633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Life/LifeCloud.mat
+  artifactKey: Guid(3a63bd5c195470c4bb79fb53e9477df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Life/LifeCloud.mat using Guid(3a63bd5c195470c4bb79fb53e9477df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5736dbbd5ebda2be5cbf6deb7b381b9f') in 0.079924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Hoshino_Original/Materials/Hoshino_Original_Face.mat
+  artifactKey: Guid(c264deb017b738d40948e6bb59f0b55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Hoshino_Original/Materials/Hoshino_Original_Face.mat using Guid(c264deb017b738d40948e6bb59f0b55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356952f8090c83f7242b3a63688f654d') in 0.042829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/GroundFire02.mat
+  artifactKey: Guid(65f47b8759ca3e247b987627d526543b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/GroundFire02.mat using Guid(65f47b8759ca3e247b987627d526543b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56761e6f2d757bc31eca2e2895fd4aad') in 0.044480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/GroundLife.mat
+  artifactKey: Guid(65e670328bbdabd4a8d8234995dc0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/GroundLife.mat using Guid(65e670328bbdabd4a8d8234995dc0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9135d0d5153319025c19fb0fe6257d6f') in 0.035813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/ArtRes/KawaiiCity/Materials/Karaoke.mat
+  artifactKey: Guid(fdbc546e45761654fad4c8df9c5b23cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/KawaiiCity/Materials/Karaoke.mat using Guid(fdbc546e45761654fad4c8df9c5b23cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b303cbbfb428b9dd9f754c4f7b6de10') in 0.102384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Hoshino_Original/Materials/Hoshino_Original_Shield.mat
+  artifactKey: Guid(75db9ededcb430d49a90f7b8e24412df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Hoshino_Original/Materials/Hoshino_Original_Shield.mat using Guid(75db9ededcb430d49a90f7b8e24412df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8faf668d2a2cd46da313e11f503b77') in 0.012712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000609 seconds.
+  path: Assets/ArtRes/KawaiiCity/Materials/Ivy.mat
+  artifactKey: Guid(cad98d2b0401d0c41b7716f75407510f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/KawaiiCity/Materials/Ivy.mat using Guid(cad98d2b0401d0c41b7716f75407510f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ce2f25888af01ad68f9a678db893cd') in 0.053622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000607 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/lensflare.mat
+  artifactKey: Guid(a8baf9e0a08c78a4bbb4d9ee825bd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/lensflare.mat using Guid(a8baf9e0a08c78a4bbb4d9ee825bd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38dcc7b945f9be7ff3bdda9cb650fe00') in 0.043371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001053 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/ground_earth03.mat
+  artifactKey: Guid(af28a1290aff3cc44873dc9d55d306dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/ground_earth03.mat using Guid(af28a1290aff3cc44873dc9d55d306dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b9ef7c7fdd0730dd065bc69431cc5a') in 0.030877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/GroundStorm.mat
+  artifactKey: Guid(4efab6738deed614dac218c8cfc35c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/GroundStorm.mat using Guid(4efab6738deed614dac218c8cfc35c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6929ab250286bcd1598a1699fef3248') in 0.018128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/ArtRes/KawaiiCity/Materials/Lantern.mat
+  artifactKey: Guid(b8bcbbcd5993d1740b6449c062256ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/KawaiiCity/Materials/Lantern.mat using Guid(b8bcbbcd5993d1740b6449c062256ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb525aad416f0a009d37cdde37b3df6') in 0.021323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/GroundLight01.mat
+  artifactKey: Guid(a9da3fe4943c9434385db152bf635fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/GroundLight01.mat using Guid(a9da3fe4943c9434385db152bf635fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedee34c3a4bc88192f9c98de479e46e') in 0.018725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/GroundFire01.mat
+  artifactKey: Guid(1e631213522bacc4b8020947338b15ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/GroundFire01.mat using Guid(1e631213522bacc4b8020947338b15ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82465e45f50947a32a81e7dd0e5746f') in 0.029805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/GroundLight03.mat
+  artifactKey: Guid(9d5b0897c7b3e5241878478c672f09e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/GroundLight03.mat using Guid(9d5b0897c7b3e5241878478c672f09e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c272da9b5164c5c5809869f83c1946') in 0.011060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/GroundEarthLight.mat
+  artifactKey: Guid(9d3210ba7a1f6744a87c1037486b0797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/GroundEarthLight.mat using Guid(9d3210ba7a1f6744a87c1037486b0797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa75f70fdf0de8031a8987ab1947e4c') in 0.025057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/GroundWater.mat
+  artifactKey: Guid(0fe9fa4d3f4c60346aa7cabf4b2b1ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/GroundWater.mat using Guid(0fe9fa4d3f4c60346aa7cabf4b2b1ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d0a19b68792d7d661120287ab0b56c') in 0.011310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Life/LifeDrop.mat
+  artifactKey: Guid(f5664de3426bb2847988b8cc25d0d76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Life/LifeDrop.mat using Guid(f5664de3426bb2847988b8cc25d0d76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540bc6971c977eb778941612694a7028') in 0.034150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Icons/Materials/Life.mat
+  artifactKey: Guid(635feddaf5496e84d996b758349e0780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Icons/Materials/Life.mat using Guid(635feddaf5496e84d996b758349e0780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a7138653f4d63224bf37c657d2fd6d') in 0.045322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Hoshino_Original/Materials/Hoshino_Original_Body.mat
+  artifactKey: Guid(a8175300cd4254447b515112f3415af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Hoshino_Original/Materials/Hoshino_Original_Body.mat using Guid(a8175300cd4254447b515112f3415af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3038bfd853b11cbb3bcc1efaa9131dfb') in 0.009854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/GroundEarthDark.mat
+  artifactKey: Guid(267cbb77a24030e4da7a7cd5727aa6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/GroundEarthDark.mat using Guid(267cbb77a24030e4da7a7cd5727aa6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f5e8046e475938dc02e22d274a89c2') in 0.026096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/GroundArcane.mat
+  artifactKey: Guid(477185c24aaadbf49804b8bcc55f5a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/GroundArcane.mat using Guid(477185c24aaadbf49804b8bcc55f5a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66104e77393fc579c257248434bb59f5') in 0.009465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Life/LifeCloud2.mat
+  artifactKey: Guid(974a0d72eefb528459074ae39fe0276c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Life/LifeCloud2.mat using Guid(974a0d72eefb528459074ae39fe0276c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b2ead084afbf4b94aa9ad1db449d16') in 0.028809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Hoshino_Original/Materials/Hoshino_Original_Weapon.mat
+  artifactKey: Guid(f49c2305ad9ea4f409452675d4ee124e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Hoshino_Original/Materials/Hoshino_Original_Weapon.mat using Guid(f49c2305ad9ea4f409452675d4ee124e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7113bb017072ab53c8f76fd090d209a2') in 0.025216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/GroundLight02.mat
+  artifactKey: Guid(0cb851612739d96429c0da8794839a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/GroundLight02.mat using Guid(0cb851612739d96429c0da8794839a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65e30dcc90b31c0b0f237d97a5fed97') in 0.038477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Hoshino_Original/Materials/Hoshino_Original_Eyebrow.mat
+  artifactKey: Guid(d30a59aecde08f447ba416a0a1e7c9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Hoshino_Original/Materials/Hoshino_Original_Eyebrow.mat using Guid(d30a59aecde08f447ba416a0a1e7c9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4829abe0f302a625ff99b85902d9cb5d') in 0.019321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/ArtRes/KawaiiCity/Materials/Graffiti 4.mat
+  artifactKey: Guid(debe5289fff3a7946ab11a0216acc7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/KawaiiCity/Materials/Graffiti 4.mat using Guid(debe5289fff3a7946ab11a0216acc7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37718ca14c652bfd7aa1761ccf79e8d8') in 0.015306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/GroundLightning.mat
+  artifactKey: Guid(6c5bb381eb108ce469d40d7e0d8182fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/GroundLightning.mat using Guid(6c5bb381eb108ce469d40d7e0d8182fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b2e66079429669c58cb526794aebc7') in 0.044527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/ArtRes/KawaiiCity/Materials/Graffiti 5.mat
+  artifactKey: Guid(510f731f2b310b7418f7f69ec50c59f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/KawaiiCity/Materials/Graffiti 5.mat using Guid(510f731f2b310b7418f7f69ec50c59f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a749218177a208b7d79c50fc453ccdc0') in 0.017072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000970 seconds.
+  path: Assets/ArtRes/KawaiiCity/Materials/Lamp1.mat
+  artifactKey: Guid(65e77f2d61d90d64ca95e19270918a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/KawaiiCity/Materials/Lamp1.mat using Guid(65e77f2d61d90d64ca95e19270918a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18eea8c8b7624bc340247d0fc7e55da') in 0.021753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/lifebeam.mat
+  artifactKey: Guid(1efe0fb91c4482149b5b5740d4860583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/lifebeam.mat using Guid(1efe0fb91c4482149b5b5740d4860583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa53b999cbd88fd14eda0297af57ed4') in 0.048110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/ArtRes/KawaiiCity/Materials/Lamp2.mat
+  artifactKey: Guid(a028bb0c673db0a4d9369bfc9b90c8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/KawaiiCity/Materials/Lamp2.mat using Guid(a028bb0c673db0a4d9369bfc9b90c8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d14499f0104676557023f8096596d8') in 0.017850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.061984 seconds.
+  path: Assets/Resources/Anim/StartScene/Hoshino/Hoshino_Start.overrideController
+  artifactKey: Guid(88138849a7fb2f647b15833ad3c9bd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Anim/StartScene/Hoshino/Hoshino_Start.overrideController using Guid(88138849a7fb2f647b15833ad3c9bd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082271e8b24df4c29aed2fa49d3ed40c') in 0.079188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 148.024039 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Koharu_Original/Koharu_Original.fbx
+  artifactKey: Guid(1904859406ed3eb468cb79cfb5fd7ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Koharu_Original/Koharu_Original.fbx using Guid(1904859406ed3eb468cb79cfb5fd7ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ee738856bb9f35582f274ad43bf256') in 0.159342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 198.371879 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Shiroko_Original/Shiroko_Original.fbx
+  artifactKey: Guid(98f6bcf672c2ce44389b34bfb4a6320e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Shiroko_Original/Shiroko_Original.fbx using Guid(98f6bcf672c2ce44389b34bfb4a6320e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d2d436c52b976b0b237f60d63b308b') in 0.127845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.910354 seconds.
+  path: Assets/Resources/Anim/StartScene/Shiroko/Shiroko_Start.overrideController
+  artifactKey: Guid(2133aaab8a5845e469961c8c0b33fc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Anim/StartScene/Shiroko/Shiroko_Start.overrideController using Guid(2133aaab8a5845e469961c8c0b33fc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce187305d497fff4173849ae6ce3da5f') in 0.151411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 120.009016 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Shiroko_Original/Shiroko_Original_EyeMouth.png
+  artifactKey: Guid(152eb6ed868f8b64f9199694e27394ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Shiroko_Original/Shiroko_Original_EyeMouth.png using Guid(152eb6ed868f8b64f9199694e27394ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bc8b519b1e2816563948dfa0b704b2') in 0.034953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 418.246854 seconds.
+  path: Assets/Resources/Anim/GameScene/Cat/BoxCat_Normal_Idle.anim
+  artifactKey: Guid(bd3657239a2791f47972cfd2f74e38d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Anim/GameScene/Cat/BoxCat_Normal_Idle.anim using Guid(bd3657239a2791f47972cfd2f74e38d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad3c03a88ccaae36796c46490b00a3f') in 0.007433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.650985 seconds.
+  path: Assets/Resources/Anim/GameScene/Cat/Cat.controller
+  artifactKey: Guid(5ac34244fdf533241ab0088e284fcff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Anim/GameScene/Cat/Cat.controller using Guid(5ac34244fdf533241ab0088e284fcff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdc326001328a8fb4a444a24f503f0c') in 0.011303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.138891 seconds.
+  path: Assets/Resources/Anim/BattleScene/Tower/Tower_Missile.overrideController
+  artifactKey: Guid(416c07b5644b0ee468f026dd2bff625f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Anim/BattleScene/Tower/Tower_Missile.overrideController using Guid(416c07b5644b0ee468f026dd2bff625f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47646c4d080ec6aeb7d5ffad9bb19b0') in 0.137816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.860627 seconds.
+  path: Assets/Resources/Anim/BattleScene/Tower/Tower_Vulcan.overrideController
+  artifactKey: Guid(2d3a0838529f6be4bacca9610a2713f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Anim/BattleScene/Tower/Tower_Vulcan.overrideController using Guid(2d3a0838529f6be4bacca9610a2713f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87283d93369b43d77fa283bfca534a5') in 0.141099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.594794 seconds.
+  path: Assets/Resources/Anim/BattleScene/Enemy/Enemy_AR.controller
+  artifactKey: Guid(155431007e9fa0e438cb651ba3cb0de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Anim/BattleScene/Enemy/Enemy_AR.controller using Guid(155431007e9fa0e438cb651ba3cb0de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fee07afc778a9ec735fe03bc8f302b') in 0.134876 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003936 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Documents\UnityProject\Hakoniwa\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.081 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1082ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (91ms)
+		EndReloadAssembly (825ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (283ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (305ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1644 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.6 MB.
+System memory in use after: 115.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2211.
+Total: 2.694200 ms (FindLiveObjects: 0.147000 ms CreateObjectMapping: 0.057700 ms MarkObjects: 2.415800 ms  DeleteObjects: 0.072700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 72.144087 seconds.
+  path: Assets/ArtRes/BlueArchive/NPC/Azusa_Original/Azusa_Original.fbx
+  artifactKey: Guid(6b655e99e36430d4cb0216e8b3cf2dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/NPC/Azusa_Original/Azusa_Original.fbx using Guid(6b655e99e36430d4cb0216e8b3cf2dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a7b9e63a9d9b5196260a44b0c6339a') in 0.285819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.355005 seconds.
+  path: Assets/ArtRes/BlueArchive/NPC/Azusa_Original/Azusa_Original_EyeMouth.png
+  artifactKey: Guid(a65efed76d6b97c48b1551714a831dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/NPC/Azusa_Original/Azusa_Original_EyeMouth.png using Guid(a65efed76d6b97c48b1551714a831dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65bce6dd8b83c7df1f75dd8799a8be7c') in 0.033869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.078447 seconds.
+  path: Assets/ArtRes/BlueArchive/NPC/Hihumi_Original/Hihumi_Original.fbx
+  artifactKey: Guid(6ef3fab1b808cc24585b8c4f404ba079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/NPC/Hihumi_Original/Hihumi_Original.fbx using Guid(6ef3fab1b808cc24585b8c4f404ba079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f57da26871207267f31881dfbbf060') in 0.128550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.192950 seconds.
+  path: Assets/Resources/Prefabs/NPC/Hihumi.prefab
+  artifactKey: Guid(da0c5c68e6e8d6248bff49b5173b3b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/NPC/Hihumi.prefab using Guid(da0c5c68e6e8d6248bff49b5173b3b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95104c108683ec2e99fc2abb17ba8d5') in 0.230801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.195848 seconds.
+  path: Assets/ArtRes/BlueArchive/NPC/Hihumi_Original/Hihumi_Original_EyeMouth.png
+  artifactKey: Guid(834eea4c259860146b662f437332d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/NPC/Hihumi_Original/Hihumi_Original_EyeMouth.png using Guid(834eea4c259860146b662f437332d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2388f4da67004382d44d9acdf9f91e8e') in 0.010856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.657818 seconds.
+  path: Assets/ArtRes/BlueArchive/NPC/Maki_Original
+  artifactKey: Guid(e8d8228c6229caa4dbdf6dda2f8d40ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/NPC/Maki_Original using Guid(e8d8228c6229caa4dbdf6dda2f8d40ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85cb64a8d12132029a35f1af8f20f1c') in 0.003085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.623201 seconds.
+  path: Assets/ArtRes/BlueArchive/NPC/Maki_Original/Maki_Original.fbx
+  artifactKey: Guid(c94dfea919d662145b73102b13faa900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/NPC/Maki_Original/Maki_Original.fbx using Guid(c94dfea919d662145b73102b13faa900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f8d59cbbd670044c9a242be6fc0ea0') in 0.140214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.954770 seconds.
+  path: Assets/Resources/Prefabs/NPC/Maki.prefab
+  artifactKey: Guid(7b6f5f0035b3f8540a97d5569e015a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/NPC/Maki.prefab using Guid(7b6f5f0035b3f8540a97d5569e015a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b107ea7b8c4dde80326e2e0f478771') in 0.238007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.479283 seconds.
+  path: Assets/ArtRes/BlueArchive/NPC/Maki_Original/Maki_Original_EyeMouth.png
+  artifactKey: Guid(53b6f720afe47f9409c23fd637937b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/NPC/Maki_Original/Maki_Original_EyeMouth.png using Guid(53b6f720afe47f9409c23fd637937b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c192671b748e0fd7571456e293744860') in 0.092868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.881574 seconds.
+  path: Assets/ArtRes/BlueArchive/NPC/Midori_Original/Midori_Original.fbx
+  artifactKey: Guid(464585c12a9be1745a6483524245134c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/NPC/Midori_Original/Midori_Original.fbx using Guid(464585c12a9be1745a6483524245134c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0423be4e871c50e163bb4e6979239591') in 0.108102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.801608 seconds.
+  path: Assets/Resources/Prefabs/NPC/Midori.prefab
+  artifactKey: Guid(95ee2b35165d14d46a16209e702b3b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/NPC/Midori.prefab using Guid(95ee2b35165d14d46a16209e702b3b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab78807eb61788cd39a6e04028b7649') in 0.298043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.345983 seconds.
+  path: Assets/ArtRes/BlueArchive/NPC/Midori_Original/Midori_Original_EyeMouth.png
+  artifactKey: Guid(ac50773767576734b9708eb285a20d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/NPC/Midori_Original/Midori_Original_EyeMouth.png using Guid(ac50773767576734b9708eb285a20d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aaef77e1fdecdcf63dda39a39e877f4') in 0.012611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 110.089813 seconds.
+  path: Assets/ArtRes/BlueArchive/NPC/Momoi_Original/Momoi_Original.fbx
+  artifactKey: Guid(d83c7f2d3d78fb94e853c667ff768db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/NPC/Momoi_Original/Momoi_Original.fbx using Guid(d83c7f2d3d78fb94e853c667ff768db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2b4f73a707d81b1839c13c46ce11f3') in 0.121831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.374387 seconds.
+  path: Assets/Resources/Prefabs/NPC/Momoi.prefab
+  artifactKey: Guid(b0a2d2dda723fde4bb620dc5d6a480cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/NPC/Momoi.prefab using Guid(b0a2d2dda723fde4bb620dc5d6a480cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fb746bfdb5d8ae187a9f94aa91c940') in 0.267866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 130.557188 seconds.
+  path: Assets/Resources/Prefabs/NPC/Momoi.prefab
+  artifactKey: Guid(b0a2d2dda723fde4bb620dc5d6a480cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/NPC/Momoi.prefab using Guid(b0a2d2dda723fde4bb620dc5d6a480cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20af137c668377d033afe32573b08080') in 0.239748 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003763 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Documents\UnityProject\Hakoniwa\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.971 seconds
+Domain Reload Profiling:
+	ReloadAssembly (972ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (792ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (250ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (310ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1644 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.4 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2215.
+Total: 2.882300 ms (FindLiveObjects: 0.148600 ms CreateObjectMapping: 0.065200 ms MarkObjects: 2.604000 ms  DeleteObjects: 0.063500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 331.274654 seconds.
+  path: Assets/baiduyunguangjia_cfg_A900527E-5BA6-4d22-8E96-E40D5C6EDF61.cfg
+  artifactKey: Guid(bb0720338208b0f468ae7fc9e2e343d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baiduyunguangjia_cfg_A900527E-5BA6-4d22-8E96-E40D5C6EDF61.cfg using Guid(bb0720338208b0f468ae7fc9e2e343d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4658fc919d398d5b367421e0ad7f90') in 0.027531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 163.436476 seconds.
+  path: Assets/BeautifulSky/CubeMap/Textures/Sky_Anime_01_Day_a.png
+  artifactKey: Guid(0fead57e1d095104dbd7c86ee5b2004b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/CubeMap/Textures/Sky_Anime_01_Day_a.png using Guid(0fead57e1d095104dbd7c86ee5b2004b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5106efa953fa74d345d33c5884c5be') in 0.218886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/BeautifulSky/CubeMap/Textures/Sky_Anime_01_dusk_a.png
+  artifactKey: Guid(0f5c05c758daa8f489a3660206587820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/CubeMap/Textures/Sky_Anime_01_dusk_a.png using Guid(0f5c05c758daa8f489a3660206587820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fdd692f81c21da11e3eed2cf6808a90') in 0.113750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/BeautifulSky/CubeMap/Textures/Sky_Anime_01_dusk_b.png
+  artifactKey: Guid(bacd3ab984d152e45aaea297cee0031a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/CubeMap/Textures/Sky_Anime_01_dusk_b.png using Guid(bacd3ab984d152e45aaea297cee0031a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c92115a6b2b87ce82669fb1ab88ec38') in 0.120545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.228019 seconds.
+  path: Assets/BeautifulSky/CubeMap/Textures/Sky_Anime_01_Night_a.png
+  artifactKey: Guid(43b90e4776ef5ed4590a978e850bf83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/CubeMap/Textures/Sky_Anime_01_Night_a.png using Guid(43b90e4776ef5ed4590a978e850bf83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aedf27372b2287d510498ea84e95272') in 0.080181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.359017 seconds.
+  path: Assets/BeautifulSky/CubeMap/Textures/Sky_Anime_01_Night_c.png
+  artifactKey: Guid(9652680d1ad377c4a84af2103437305e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/CubeMap/Textures/Sky_Anime_01_Night_c.png using Guid(9652680d1ad377c4a84af2103437305e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be298c897f125492f6ba38843696a80') in 0.078292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.204610 seconds.
+  path: Assets/BeautifulSky/CubeMap/Materials/Sky_Anime_14_Rain_a.mat
+  artifactKey: Guid(67be6a281a13b004489fdfa4ce73f7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/CubeMap/Materials/Sky_Anime_14_Rain_a.mat using Guid(67be6a281a13b004489fdfa4ce73f7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5058b56baba7d7664805fe4a45fa2c06') in 0.182530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/spike02.mat
+  artifactKey: Guid(19b0945400988134eb510b7b01ec8c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/spike02.mat using Guid(19b0945400988134eb510b7b01ec8c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555104b6ec5c678d4d27c9d91ba4e2c5') in 0.109114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/BeautifulSky/Panoramic/Materials/Sky_Anime_18_day_a.mat
+  artifactKey: Guid(dd1d0a239570e5243ba911df5e52888c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/Panoramic/Materials/Sky_Anime_18_day_a.mat using Guid(dd1d0a239570e5243ba911df5e52888c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5a2e8f32ce60560d20441a0f6c99bf') in 0.153856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/spike03.mat
+  artifactKey: Guid(f1780ab542dce5c419e374636b507b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/spike03.mat using Guid(f1780ab542dce5c419e374636b507b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54066f64dd3cb59b57638c4a760d3d69') in 0.066161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/BeautifulSky/CubeMap/Materials/Sky_LowPoly_02_Night_b.mat
+  artifactKey: Guid(b12ec974e8c85e644a67295e1cac2c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/CubeMap/Materials/Sky_LowPoly_02_Night_b.mat using Guid(b12ec974e8c85e644a67295e1cac2c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502d715aacaaa97d51f22b2e5d1fcd95') in 0.131571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/BeautifulSky/CubeMap/Materials/Sky_Anime_19_Night_a.mat
+  artifactKey: Guid(fa44790f5955a8a47b7a37f1d1f32e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/CubeMap/Materials/Sky_Anime_19_Night_a.mat using Guid(fa44790f5955a8a47b7a37f1d1f32e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae2eb7469275c14f146190c7fb0b27a') in 0.077004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/BeautifulSky/CubeMap/Materials/Sky_Anime_18_day_a.mat
+  artifactKey: Guid(48538dd7fe637224cb291f262c7fcdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/CubeMap/Materials/Sky_Anime_18_day_a.mat using Guid(48538dd7fe637224cb291f262c7fcdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f90d5e123a415a9d90bc9b86a915d3a') in 0.100683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/sphereflat.mat
+  artifactKey: Guid(1ecb93292269bb6429ad4039af6b0ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/sphereflat.mat using Guid(1ecb93292269bb6429ad4039af6b0ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585c8526548307c0f4b96855c7ce3c26') in 0.030292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Storm/StormCloud.mat
+  artifactKey: Guid(1b3dc741307366f49963537f635ac1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Storm/StormCloud.mat using Guid(1b3dc741307366f49963537f635ac1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537f47c3132d7a2bf0628bf3fb12270e') in 0.040916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000648 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/smoke02.mat
+  artifactKey: Guid(b05fcb4380c78e24fb16295d8fad700c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/smoke02.mat using Guid(b05fcb4380c78e24fb16295d8fad700c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a80720442ccb86fca72bf1d833b2593') in 0.037497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/BeautifulSky/CubeMap/Materials/Sky_LowPoly_03_Day_a.mat
+  artifactKey: Guid(6dea0bd04d72b8d4faa0293556443331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/CubeMap/Materials/Sky_LowPoly_03_Day_a.mat using Guid(6dea0bd04d72b8d4faa0293556443331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3609159aede1117a881fb118a755d8') in 0.098287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/smallglow01.mat
+  artifactKey: Guid(bafdb712bebb28d40988e5644ed9bf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/smallglow01.mat using Guid(bafdb712bebb28d40988e5644ed9bf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b261f8cd59eb22dcca88aab9b4cd457') in 0.039842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002531 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Storm/StormDustBright.mat
+  artifactKey: Guid(44e32f16ae6df4f49ab59a36bda6ca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Storm/StormDustBright.mat using Guid(44e32f16ae6df4f49ab59a36bda6ca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac4a7f3a89a6782af9fea76fb3a0540') in 0.012374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000615 seconds.
+  path: Assets/BeautifulSky/CubeMap/Materials/Sky_LowPoly_01_Day_a.mat
+  artifactKey: Guid(c0eb95edbf47a834ea06141bb9ae0ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/CubeMap/Materials/Sky_LowPoly_01_Day_a.mat using Guid(c0eb95edbf47a834ea06141bb9ae0ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d290f219b294343ea01fb92e5ef318') in 0.079266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/ArtRes/KawaiiCity/Materials/StreetMarkingsRed.mat
+  artifactKey: Guid(54bd644b080ab5547a6ef0a341ac7447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/KawaiiCity/Materials/StreetMarkingsRed.mat using Guid(54bd644b080ab5547a6ef0a341ac7447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21acd53657a5b03b48f5b7701300bb77') in 0.086874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/BeautifulSky/CubeMap/Materials/Sky_Anime_18_dusk_a.mat
+  artifactKey: Guid(509044535f5bea6498bcfb053362af2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/CubeMap/Materials/Sky_Anime_18_dusk_a.mat using Guid(509044535f5bea6498bcfb053362af2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f261499c00876b3071647b61a8e818ff') in 0.078176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/BeautifulSky/CubeMap/Materials/Sky_Anime_15_Day_a.mat
+  artifactKey: Guid(591210693df5ef446be6152e34d4f8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/CubeMap/Materials/Sky_Anime_15_Day_a.mat using Guid(591210693df5ef446be6152e34d4f8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669d4748bc0913d35087a31273908295') in 0.079141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/smoke01.mat
+  artifactKey: Guid(9796e26a2d8b6b74bab95bd319037d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/smoke01.mat using Guid(9796e26a2d8b6b74bab95bd319037d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5d371f28f0f7d177df69ad30e5aa14') in 0.037334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/stormbeam.mat
+  artifactKey: Guid(31a9f608da30c6a44a434fecd74465f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/stormbeam.mat using Guid(31a9f608da30c6a44a434fecd74465f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e60a8ceda28dfd481ce4a51c4660487') in 0.048795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/BeautifulSky/CubeMap/Materials/Sky_LowPoly_02_Night_a.mat
+  artifactKey: Guid(897ce77527de803489ab7e86e10cfb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/CubeMap/Materials/Sky_LowPoly_02_Night_a.mat using Guid(897ce77527de803489ab7e86e10cfb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10e905d4a29ad4307f17ad0e918b2a5') in 0.086742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Icons/Materials/Storm.mat
+  artifactKey: Guid(2bb3f18d4a3a57d47bab20131aff4978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Icons/Materials/Storm.mat using Guid(2bb3f18d4a3a57d47bab20131aff4978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b77acfab8ebac0ef814af108009465') in 0.038700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/BeautifulSky/Panoramic/Materials/Sky_LowPoly_02_Night_b.mat
+  artifactKey: Guid(2ce7eea225753dd41903f2af5544a1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/Panoramic/Materials/Sky_LowPoly_02_Night_b.mat using Guid(2ce7eea225753dd41903f2af5544a1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2a53601b1146319552f478effcdab9') in 0.066734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/smoke04.mat
+  artifactKey: Guid(f7e8dbff3cb454845835d92982c5a835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/smoke04.mat using Guid(f7e8dbff3cb454845835d92982c5a835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c6a4fa05776ddf4e672b15b5789f4b') in 0.044531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Trails/stormtrail.mat
+  artifactKey: Guid(3a376794c8c5f534f8a74bc4da602f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Trails/stormtrail.mat using Guid(3a376794c8c5f534f8a74bc4da602f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bc5ccdcec3edb9fbaa5dfa1253a330') in 0.023645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/BeautifulSky/CubeMap/Materials/Sky_Anime_16_Night_a.mat
+  artifactKey: Guid(f702496a9be18894cbd87e3174bfdd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/CubeMap/Materials/Sky_Anime_16_Night_a.mat using Guid(f702496a9be18894cbd87e3174bfdd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3a51d989a1eefb4d79da761801b0b0') in 0.088109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Storm/StormSwirl.mat
+  artifactKey: Guid(3eb115dc75f8d41419bc844968d9e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Storm/StormSwirl.mat using Guid(3eb115dc75f8d41419bc844968d9e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6124888c3e8433b448f49463ad57e6') in 0.096736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000709 seconds.
+  path: Assets/ArtRes/KawaiiCity/Materials/StreetMarkings.mat
+  artifactKey: Guid(9cef24c1374d41741b6774d4456db83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/KawaiiCity/Materials/StreetMarkings.mat using Guid(9cef24c1374d41741b6774d4456db83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1ab6ba8b17122411d71a41f10cb2e6') in 0.017626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/BeautifulSky/Panoramic/Materials/Sky_Anime_16_Night_b.mat
+  artifactKey: Guid(60fdedea65612674b85b76ca2245d914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/Panoramic/Materials/Sky_Anime_16_Night_b.mat using Guid(60fdedea65612674b85b76ca2245d914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68de9027f8ee08284246023afcb63f0e') in 0.071724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/BeautifulSky/Panoramic/Materials/Sky_Anime_20_Day_a.mat
+  artifactKey: Guid(7e73cab52aa96864c8aab7f3036b49dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/Panoramic/Materials/Sky_Anime_20_Day_a.mat using Guid(7e73cab52aa96864c8aab7f3036b49dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22676958c52d5044aca813e0387f3f94') in 0.046275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/BeautifulSky/Panoramic/Materials/Sky_LowPoly_03_Day_a.mat
+  artifactKey: Guid(da181d9c1010b434ab696d2cf03a5e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/Panoramic/Materials/Sky_LowPoly_03_Day_a.mat using Guid(da181d9c1010b434ab696d2cf03a5e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8fc73005e96e3572e60ebf88291fea') in 0.040564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000727 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Storm/StormDust.mat
+  artifactKey: Guid(cf81070eb580e924c8f807f8ada87324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Projectiles/Storm/StormDust.mat using Guid(cf81070eb580e924c8f807f8ada87324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768e787dd606530216127caebfdfeb57') in 0.018905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/ArtRes/MagicArsenal/Demo/Scenes/Materials/StandardMat2.mat
+  artifactKey: Guid(a1c73e7ca4a1ee34bb362d53896fa9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Demo/Scenes/Materials/StandardMat2.mat using Guid(a1c73e7ca4a1ee34bb362d53896fa9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed25ef16c019ef898e0cd908109d6f5d') in 0.020516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/BeautifulSky/CubeMap/Materials/Sky_Anime_16_Night_b.mat
+  artifactKey: Guid(a0fabc1b4da57b74e9e6fb9e7c62c19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/CubeMap/Materials/Sky_Anime_16_Night_b.mat using Guid(a0fabc1b4da57b74e9e6fb9e7c62c19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba2d2a8fd29af1578c46182c925267d') in 0.107532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/BeautifulSky/Panoramic/Materials/Sky_Anime_18_dusk_a.mat
+  artifactKey: Guid(1196c5293901aa148aa87c67aa85ae26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/Panoramic/Materials/Sky_Anime_18_dusk_a.mat using Guid(1196c5293901aa148aa87c67aa85ae26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8355dad5994bd6f4c8c029a7e3a5120d') in 0.046353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/BeautifulSky/Panoramic/Materials/Sky_Anime_19_Night_a.mat
+  artifactKey: Guid(9bb3ee70bd32a1b418d0dd0faec5c4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/Panoramic/Materials/Sky_Anime_19_Night_a.mat using Guid(9bb3ee70bd32a1b418d0dd0faec5c4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce25656bea1ba061768d85c18d4478c') in 0.061073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/ArtRes/MagicArsenal/Demo/Scenes/Materials/StandardMat.mat
+  artifactKey: Guid(1c59a96bf43a9ee4d928f7b6832cd555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Demo/Scenes/Materials/StandardMat.mat using Guid(1c59a96bf43a9ee4d928f7b6832cd555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab262c0f5377e07901ed1ec5009d7b8') in 0.028650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/star02.mat
+  artifactKey: Guid(02e4ac3d2a6192b4a8d159c5b444d40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/star02.mat using Guid(02e4ac3d2a6192b4a8d159c5b444d40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e27306b0ed021b97c671cf447b8b76') in 0.010991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/smoke03.mat
+  artifactKey: Guid(43cf4c5ff84f9f24d8891be34e96e074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/smoke03.mat using Guid(43cf4c5ff84f9f24d8891be34e96e074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d1c9f9f7bed927d85fcf170d1ee14f') in 0.012250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/smallglow_offcenter.mat
+  artifactKey: Guid(0ab1f14d1d4b7cd4fb02c09c2adb3ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/smallglow_offcenter.mat using Guid(0ab1f14d1d4b7cd4fb02c09c2adb3ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd94f9b7745ba70cf05ffbcda214efc8') in 0.009745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/BeautifulSky/CubeMap/Materials/Sky_Anime_17_Night_a.mat
+  artifactKey: Guid(00ed8b70d0c97794b99cd606cda09712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/CubeMap/Materials/Sky_Anime_17_Night_a.mat using Guid(00ed8b70d0c97794b99cd606cda09712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fbe66a71b72f08b7fe1fa5921a6b95') in 0.081039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/ArtRes/KawaiiCity/Materials/Skybox.mat
+  artifactKey: Guid(26fcebfcdf1efca4aaaed8ae0b293d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/KawaiiCity/Materials/Skybox.mat using Guid(26fcebfcdf1efca4aaaed8ae0b293d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c3d1365813969719757d589b4d9039') in 0.027049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/BeautifulSky/Panoramic/Materials/Sky_Anime_17_Night_a.mat
+  artifactKey: Guid(6e3a0b07e952838498c77f5ab3acb5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/Panoramic/Materials/Sky_Anime_17_Night_a.mat using Guid(6e3a0b07e952838498c77f5ab3acb5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff44e4846031f3f5b64b2c820fca84d') in 0.038950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/spike01.mat
+  artifactKey: Guid(21dc06b5861383742b65d37e77adc51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/spike01.mat using Guid(21dc06b5861383742b65d37e77adc51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339f31df0a78fa987aa48365ed378d4f') in 0.021086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/BeautifulSky/Panoramic/Materials/Sky_Anime_14_Rain_a.mat
+  artifactKey: Guid(b2750ea3a26d83e4e97ba6f3e4498c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/Panoramic/Materials/Sky_Anime_14_Rain_a.mat using Guid(b2750ea3a26d83e4e97ba6f3e4498c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d093aeaaf4f96e2e3bd95ee6f6d2a33') in 0.032917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/star.mat
+  artifactKey: Guid(47784416a4f965b4aa2b7045d999d398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/star.mat using Guid(47784416a4f965b4aa2b7045d999d398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c137c728a0e46525957b259e08a87c1') in 0.029866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/BeautifulSky/Panoramic/Materials/Sky_Anime_16_Night_a.mat
+  artifactKey: Guid(18e00e08abc33e94880f375f55bf347a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/Panoramic/Materials/Sky_Anime_16_Night_a.mat using Guid(18e00e08abc33e94880f375f55bf347a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0cea81392dd099c11adaf8a027281f6') in 0.035666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/BeautifulSky/Panoramic/Materials/Sky_LowPoly_01_Day_a.mat
+  artifactKey: Guid(cc032cd3ee16c8e418ebebe374975c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/Panoramic/Materials/Sky_LowPoly_01_Day_a.mat using Guid(cc032cd3ee16c8e418ebebe374975c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674d974e2b9c0740287ae84cb0ff1f65') in 0.033792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/BeautifulSky/Panoramic/Materials/Sky_LowPoly_02_Night_a.mat
+  artifactKey: Guid(56f4351a6ec2fcd479adbce222450070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/Panoramic/Materials/Sky_LowPoly_02_Night_a.mat using Guid(56f4351a6ec2fcd479adbce222450070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69866f999b057d8b15338eeae8733805') in 0.033577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Models/Materials/sphereshield.mat
+  artifactKey: Guid(87c5a7c2fa3e6634ca5bd1b2b67465e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Models/Materials/sphereshield.mat using Guid(87c5a7c2fa3e6634ca5bd1b2b67465e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8d991183e5360dc99855a660b9eeee') in 0.015511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/BeautifulSky/Panoramic/Materials/Sky_Anime_15_Day_a.mat
+  artifactKey: Guid(542b2c59c86f41544a06a3d306f1d87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/Panoramic/Materials/Sky_Anime_15_Day_a.mat using Guid(542b2c59c86f41544a06a3d306f1d87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d507a7f1d246eac930c76c93fd8895a') in 0.032511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/smoke05.mat
+  artifactKey: Guid(9f8502dbd40961d419e80737a8ca70d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Materials/Modular/smoke05.mat using Guid(9f8502dbd40961d419e80737a8ca70d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716ec0f34097e60911a45126ce597cfb') in 0.011546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/ArtRes/KawaiiCity/Materials/Stool.mat
+  artifactKey: Guid(84e6f2eb173258047940b532149cdd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/KawaiiCity/Materials/Stool.mat using Guid(84e6f2eb173258047940b532149cdd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270d4754f6b073bd89a466151c2e9581') in 0.342336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.902118 seconds.
+  path: Assets/Scenes/BattleScene1.unity
+  artifactKey: Guid(c806b20dbcf899b4980c480f65c7ee49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BattleScene1.unity using Guid(c806b20dbcf899b4980c480f65c7ee49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac14a0fac209453450b9dff2364f1d8') in 0.002419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.835571 seconds.
+  path: Assets/BeautifulSky/CubeMap/Textures/Sky_Anime_01_Night_b.png
+  artifactKey: Guid(c20c37b97d7eb194ca4ca468a14b7441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/CubeMap/Textures/Sky_Anime_01_Night_b.png using Guid(c20c37b97d7eb194ca4ca468a14b7441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ced1fbf27fd2e8582dcbd6875132e3e') in 0.196678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.950678 seconds.
+  path: Assets/BeautifulSky/CubeMap/Textures/Sky_Anime_02_Day_a.png
+  artifactKey: Guid(9d9f5c9cadd3da040bd0e1c59e7a23f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/CubeMap/Textures/Sky_Anime_02_Day_a.png using Guid(9d9f5c9cadd3da040bd0e1c59e7a23f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a7cf06eb885ada26da5586671f9204') in 0.142834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.442258 seconds.
+  path: Assets/BeautifulSky/CubeMap/Textures/Sky_Anime_02_dusk_a.png
+  artifactKey: Guid(b2800dda9b98de94cac219f2d3ae98f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/CubeMap/Textures/Sky_Anime_02_dusk_a.png using Guid(b2800dda9b98de94cac219f2d3ae98f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abfd2598989a83167703aa3efa96aeb') in 0.084525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.299168 seconds.
+  path: Assets/Scenes/BattleScene2.unity
+  artifactKey: Guid(7161863ff900c8c4a9d86fa2d857461f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BattleScene2.unity using Guid(7161863ff900c8c4a9d86fa2d857461f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ddb9983935859f48a529c81ef88d2e') in 0.002001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.808169 seconds.
+  path: Assets/Scenes/BattleScene3.unity
+  artifactKey: Guid(94cc72285a80fd246a36b5a2f90538c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BattleScene3.unity using Guid(94cc72285a80fd246a36b5a2f90538c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca2f1af5fe9783f9d19397987957a79') in 0.002081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.481102 seconds.
+  path: Assets/BeautifulSky/CubeMap/Textures/Sky_Anime_12_morning_a.png
+  artifactKey: Guid(da3251f28975fb74e9ea2b37d607c7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeautifulSky/CubeMap/Textures/Sky_Anime_12_morning_a.png using Guid(da3251f28975fb74e9ea2b37d607c7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4c9ced486d9d4e3e759164f1d02af5') in 0.089992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.859774 seconds.
+  path: Assets/Scenes/BeginScene.unity
+  artifactKey: Guid(3903cf03ec104b540a882bbc49939f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BeginScene.unity using Guid(3903cf03ec104b540a882bbc49939f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5736931138245ed9be02a39cfec78f5') in 0.025034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.084817 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Icons/Textures/arcane.png
+  artifactKey: Guid(59f654c034abb334a8ba4591c79f4464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Icons/Textures/arcane.png using Guid(59f654c034abb334a8ba4591c79f4464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410a10ff03b4d5101809a10b92552f56') in 0.100335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original_Halo.png
+  artifactKey: Guid(08c94d18ddba1b3488084cc615d96951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original_Halo.png using Guid(08c94d18ddba1b3488084cc615d96951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a772b15b5315f55b95dacff8e3d0e3') in 0.014974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original_Weapon_Mask.png
+  artifactKey: Guid(b608b12d37695dd4d87b50aa946f7e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original_Weapon_Mask.png using Guid(b608b12d37695dd4d87b50aa946f7e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f072c59d4528aff9aa73723daec14ade') in 0.006816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Textures/arcane_glow.png
+  artifactKey: Guid(63f4792c6c50b4e49bec66a8bad914c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Textures/arcane_glow.png using Guid(63f4792c6c50b4e49bec66a8bad914c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a446bfba03d23ad5102e1eebad89f3a') in 0.046736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/ArtRes/BlueArchive/NPC/Azusa_Original/Azusa_Original_Face.png
+  artifactKey: Guid(96786499fcd15e648b281d81f5f52fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/NPC/Azusa_Original/Azusa_Original_Face.png using Guid(96786499fcd15e648b281d81f5f52fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9b9f3846ff216dd47d32015dce5336') in 0.019124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/ArtRes/BlueArchive/NPC/Azusa_Original/Azusa_Original_Face_Mask.png
+  artifactKey: Guid(1080ac4369a6c0a4196a2eddeab6981e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/NPC/Azusa_Original/Azusa_Original_Face_Mask.png using Guid(1080ac4369a6c0a4196a2eddeab6981e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830f9845b44c405cb4562bc5f1ad0414') in 0.030991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original_Face_Mask.png
+  artifactKey: Guid(82860a99b85417744bdb020d05772310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original_Face_Mask.png using Guid(82860a99b85417744bdb020d05772310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fe80aa31461cf4658b983985d408c7') in 0.008549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/ArtRes/BlueArchive/NPC/Azusa_Original/Azusa_Original_Halo.png
+  artifactKey: Guid(5e42b8a74192ed741bb7f9748645c52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/NPC/Azusa_Original/Azusa_Original_Halo.png using Guid(5e42b8a74192ed741bb7f9748645c52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0632b68361cdc8cca123eb957eeb5ada') in 0.008149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/ArtRes/BlueArchive/NPC/Azusa_Original/Azusa_Original_Weapon.png
+  artifactKey: Guid(f9dda812b26ef85499083cf1dd075cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/NPC/Azusa_Original/Azusa_Original_Weapon.png using Guid(f9dda812b26ef85499083cf1dd075cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1200eb89e8f447eea97beb29cf879d79') in 0.014210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original_Weapon.png
+  artifactKey: Guid(34bc1ae008f98ab4f93387b389ed8da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original_Weapon.png using Guid(34bc1ae008f98ab4f93387b389ed8da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861d9a4d3ccae7a9d9244645199e1aad') in 0.009652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/ArtRes/BlueArchive/NPC/Azusa_Original/Azusa_Original_Body_Mask.png
+  artifactKey: Guid(68856f9e93949244792d6c60e4b07608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/NPC/Azusa_Original/Azusa_Original_Body_Mask.png using Guid(68856f9e93949244792d6c60e4b07608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a337f865915199c9e0621165ed37cf') in 0.066016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/ArtRes/BlueArchive/NPC/Azusa_Original/Azusa_Original_Bullet_Mask.png
+  artifactKey: Guid(dff64595489705f49b0b21e61b281098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/NPC/Azusa_Original/Azusa_Original_Bullet_Mask.png using Guid(dff64595489705f49b0b21e61b281098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817b4a5fe16c811016afb5e94941527b') in 0.016522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/ArtRes/BlueArchive/NPC/Azusa_Original/Azusa_Original_Weapon_Mask.png
+  artifactKey: Guid(129ab1bca42c63f4b8163915c7a8ca82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/NPC/Azusa_Original/Azusa_Original_Weapon_Mask.png using Guid(129ab1bca42c63f4b8163915c7a8ca82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4505149e587b4e9adb250b64a60ef35') in 0.006763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/ArtRes/BlueArchive/NPC/Azusa_Original/Azusa_Original_Body.png
+  artifactKey: Guid(27efe98d441c7c740b54040285a28e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/NPC/Azusa_Original/Azusa_Original_Body.png using Guid(27efe98d441c7c740b54040285a28e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93df1176701ca3a0a1823c9504276925') in 0.008098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Textures/arcane_spark.png
+  artifactKey: Guid(7c0b609fc2bbcbc4a98d28c07422a2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Textures/arcane_spark.png using Guid(7c0b609fc2bbcbc4a98d28c07422a2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f430bba4765dd47711f4a93450131f') in 0.009417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original_Body.png
+  artifactKey: Guid(bf2ff426337f8644886beb956857b38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/Player/Aru_Original/Aru_Original_Body.png using Guid(bf2ff426337f8644886beb956857b38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ba253666de5db7c161dc91b44d32e9') in 0.008874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/ArtRes/BlueArchive/NPC/Azusa_Original/Azusa_Original_Bullet.png
+  artifactKey: Guid(92ca2fc8f3ff7004d97f43c0404b2c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/BlueArchive/NPC/Azusa_Original/Azusa_Original_Bullet.png using Guid(92ca2fc8f3ff7004d97f43c0404b2c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b4d8680c4c6aaefb160e7141db7ef1') in 0.006216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/ArtRes/MagicArsenal/Effects/Textures/arcane_spark_offcenter.png
+  artifactKey: Guid(5ccd241cba9e188478c5bed9feea9bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtRes/MagicArsenal/Effects/Textures/arcane_spark_offcenter.png using Guid(5ccd241cba9e188478c5bed9feea9bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28637f16757c6c5848a5f2268b65d14e') in 0.015815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.161382 seconds.
+  path: Assets/Resources/UI/Item.prefab
+  artifactKey: Guid(d0bfd5d651eeb4e44876eba8ace8cb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Item.prefab using Guid(d0bfd5d651eeb4e44876eba8ace8cb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabc02fbc5c825f81ec8b33bd6a83e78') in 0.022432 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.9 MB.
+System memory in use after: 84.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2223.
+Total: 3.560900 ms (FindLiveObjects: 0.142300 ms CreateObjectMapping: 0.054700 ms MarkObjects: 3.305900 ms  DeleteObjects: 0.057200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

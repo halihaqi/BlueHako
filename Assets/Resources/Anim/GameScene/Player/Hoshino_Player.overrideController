@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hoshino_Player
+  m_Controller: {fileID: 9100000, guid: 496477aef70197c458d250416d629e44, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 37b761ef196c5e3448c2b3bc31464fff, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7aeb98fe27b8b5949a674937557556e8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d4b3b71b2407bc04fa28f764b8fc40fb, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 06771944d8f526d4ba689d8c6dd81a69, type: 2}

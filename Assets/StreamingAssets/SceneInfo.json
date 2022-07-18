@@ -1,0 +1,5 @@
+[
+{"id":0,"sceneName":"BattleScene1","towerHp":500,"money":200,"imgRes":"SceneImg/Battle1","name":"牛奶保卫战","tip":"为了学生们的健康成长，从敌人手中保护牛奶吧！","hard":1,"towerImgRes":"SceneImg/TowerMilk","reward":300},
+{"id":1,"sceneName":"BattleScene2","towerHp":1000,"money":400,"imgRes":"SceneImg/Battle2","name":" 按摩椅保卫战","tip":"有谁能拒绝按摩椅的诱惑呢?","hard":2,"towerImgRes":"SceneImg/TowerChair","reward":800},
+{"id":2,"sceneName":"BattleScene3","towerHp":2000,"money":600,"imgRes":"SceneImg/Battle3","name":"温泉保卫战","tip":"温泉！从诞生之初便成为了人们争夺的对象！","hard":3,"towerImgRes":"SceneImg/TowerBath","reward":1600}
+]

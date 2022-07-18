@@ -1,0 +1,5 @@
+[
+{"id":0,"res":"Prefabs/Enemy/Enemy_AR","atk":20,"moveSpeed":1.5,"rotateSpeed":100,"hp":10,"atkOffset":2,"atkRange":10,"money":20,"rewardId":9},
+{"id":1,"res":"Prefabs/Enemy/Enemy_SMG","atk":5,"moveSpeed":3,"rotateSpeed":100,"hp":10,"atkOffset":0.8,"atkRange":5,"money":15,"rewardId":10},
+{"id":2,"res":"Prefabs/Enemy/Enemy_Tank","atk":100,"moveSpeed":3,"rotateSpeed":100,"hp":100,"atkOffset":10,"atkRange":20,"money":100,"rewardId":11}
+]
